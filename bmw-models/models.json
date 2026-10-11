@@ -1,0 +1,238 @@
+{
+  "source": "https://www.bmw.co.uk/en/all-models.html",
+  "captured": "2026-10-11",
+  "note": "Template image is the first model card's studio render, the same format as the configurator cards. The build-and-price grid does not list every series; 7 Series, 8 Series, X4, X6, Z4, X4 M, X5 M and X6 M come from the all-models page. The 5 Series saloon card reuses the i5 eDrive40 render, so the 5 Series image is the 530e M Sport Touring.",
+  "models": [
+    {
+      "series": "1 Series",
+      "body": "Hatch",
+      "templateVariant": "BMW 120 Sport",
+      "range": "F70",
+      "image": "images/1-series.webp"
+    },
+    {
+      "series": "2 Series",
+      "body": "Coupé",
+      "templateVariant": "BMW 220i M Sport Coupé",
+      "range": "G42",
+      "image": "images/2-series.webp"
+    },
+    {
+      "series": "3 Series",
+      "body": "Touring",
+      "templateVariant": "BMW 330e M Sport Touring",
+      "range": "G21",
+      "image": "images/3-series.webp"
+    },
+    {
+      "series": "4 Series",
+      "body": "Coupé",
+      "templateVariant": "BMW 420i M Sport Coupé",
+      "range": "G22",
+      "image": "images/4-series.webp"
+    },
+    {
+      "series": "5 Series",
+      "body": "Touring",
+      "templateVariant": "BMW 530e M Sport Touring",
+      "range": "G61",
+      "image": "images/5-series.webp"
+    },
+    {
+      "series": "7 Series",
+      "body": "Saloon",
+      "templateVariant": "BMW 750e xDrive Saloon",
+      "range": "G70",
+      "image": "images/7-series.webp"
+    },
+    {
+      "series": "8 Series",
+      "body": "Coupé",
+      "templateVariant": "BMW 840i M Sport Coupé",
+      "range": "G15",
+      "image": "images/8-series.webp"
+    },
+    {
+      "series": "X1",
+      "body": "SUV",
+      "templateVariant": "BMW X1 sDrive20i Sport",
+      "range": "U11",
+      "image": "images/x1.webp"
+    },
+    {
+      "series": "X2",
+      "body": "SUV",
+      "templateVariant": "BMW X2 sDrive20i M Sport",
+      "range": "U10",
+      "image": "images/x2.webp"
+    },
+    {
+      "series": "X3",
+      "body": "SUV",
+      "templateVariant": "BMW X3 30e xDrive M Sport",
+      "range": "G45",
+      "image": "images/x3.webp"
+    },
+    {
+      "series": "X4",
+      "body": "SUV",
+      "templateVariant": "BMW X4 M40i",
+      "range": "G02",
+      "image": "images/x4.webp"
+    },
+    {
+      "series": "X5",
+      "body": "SUV",
+      "templateVariant": "BMW X5 50e xDrive M Sport Pro",
+      "range": "G65",
+      "image": "images/x5.webp"
+    },
+    {
+      "series": "X6",
+      "body": "SUV",
+      "templateVariant": "BMW X6 xDrive40i M Sport",
+      "range": "G06",
+      "image": "images/x6.webp"
+    },
+    {
+      "series": "X7",
+      "body": "SUV",
+      "templateVariant": "BMW X7 xDrive40i Excellence",
+      "range": "G07",
+      "image": "images/x7.webp"
+    },
+    {
+      "series": "Z4",
+      "body": "Roadster",
+      "templateVariant": "BMW Z4 sDrive20i M Sport",
+      "range": "G29",
+      "image": "images/z4.webp"
+    },
+    {
+      "series": "i3",
+      "body": "Saloon",
+      "templateVariant": "BMW i3 50 xDrive Saloon",
+      "range": "NA0G50",
+      "image": "images/i3.webp"
+    },
+    {
+      "series": "i4",
+      "body": "Gran Coupé",
+      "templateVariant": "BMW i4 M60 xDrive",
+      "range": "G26",
+      "image": "images/i4.webp"
+    },
+    {
+      "series": "i5",
+      "body": "Saloon",
+      "templateVariant": "BMW i5 eDrive40 Sport Edition Saloon",
+      "range": "G60",
+      "image": "images/i5.webp"
+    },
+    {
+      "series": "i7",
+      "body": "Saloon",
+      "templateVariant": "BMW i7 50 xDrive",
+      "range": "G70",
+      "image": "images/i7.webp"
+    },
+    {
+      "series": "iX1",
+      "body": "SUV",
+      "templateVariant": "BMW iX1 eDrive20 Sport",
+      "range": "U11E",
+      "image": "images/ix1.webp"
+    },
+    {
+      "series": "iX2",
+      "body": "SUV",
+      "templateVariant": "BMW iX2 xDrive30 M Sport",
+      "range": "U10",
+      "image": "images/ix2.webp"
+    },
+    {
+      "series": "iX3",
+      "body": "SUV",
+      "templateVariant": "BMW iX3 50 xDrive",
+      "range": "NA5",
+      "image": "images/ix3.webp"
+    },
+    {
+      "series": "iX4",
+      "body": "SUV",
+      "templateVariant": "BMW iX4 50 xDrive M Sport",
+      "range": "NA7",
+      "image": "images/ix4.webp"
+    },
+    {
+      "series": "iX5",
+      "body": "SUV",
+      "templateVariant": "BMW iX5 60 xDrive M Sport",
+      "range": "G65",
+      "image": "images/ix5.webp"
+    },
+    {
+      "series": "iX",
+      "body": "SUV",
+      "templateVariant": "BMW iX xDrive60 M Sport",
+      "range": "I20",
+      "image": "images/ix.webp"
+    },
+    {
+      "series": "M2",
+      "body": "Coupé",
+      "templateVariant": "BMW M2 with M xDrive",
+      "range": "G87",
+      "image": "images/m2.webp"
+    },
+    {
+      "series": "M3",
+      "body": "Saloon",
+      "templateVariant": "BMW M3 Competition M xDrive Saloon",
+      "range": "G80",
+      "image": "images/m3.webp"
+    },
+    {
+      "series": "M4",
+      "body": "Coupé",
+      "templateVariant": "BMW M4 Competition M xDrive Coupé",
+      "range": "G82",
+      "image": "images/m4.webp"
+    },
+    {
+      "series": "M5",
+      "body": "Saloon",
+      "templateVariant": "BMW M5 Saloon",
+      "range": "G90",
+      "image": "images/m5.webp"
+    },
+    {
+      "series": "X4 M",
+      "body": "SUV",
+      "templateVariant": "BMW X4 M Competition",
+      "range": "F98",
+      "image": "images/x4-m.webp"
+    },
+    {
+      "series": "X5 M",
+      "body": "SUV",
+      "templateVariant": "BMW X5 M Competition",
+      "range": "F95",
+      "image": "images/x5-m.webp"
+    },
+    {
+      "series": "X6 M",
+      "body": "SUV",
+      "templateVariant": "BMW X6 M Competition",
+      "range": "F96",
+      "image": "images/x6-m.webp"
+    },
+    {
+      "series": "XM",
+      "body": "SUV",
+      "templateVariant": "BMW XM Label",
+      "range": "G09",
+      "image": "images/xm.webp"
+    }
+  ]
+}
