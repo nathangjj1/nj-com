@@ -1,6 +1,1645 @@
 {
   "source": "https://www.evaautomotive.co.uk/",
-  "captured": "2026-10-15T16:14:33.935Z",
+  "captured": "2026-10-15T16:20:22.120Z",
   "windowDays": 30,
-  "appraisals": []
+  "appraisals": [
+    {
+      "registration": "YT74BLZ",
+      "appraisedAt": "2026-10-15T15:52:19.518Z",
+      "make": "AUDI",
+      "model": "Q5",
+      "status": "Valued",
+      "price": 32000,
+      "image": null
+    },
+    {
+      "registration": "KD23DHJ",
+      "appraisedAt": "2026-10-15T14:01:55.519Z",
+      "make": "AUDI",
+      "model": "RS3",
+      "status": "Valued",
+      "price": 40829,
+      "image": null
+    },
+    {
+      "registration": "S22OSG",
+      "appraisedAt": "2026-10-15T13:48:23.460Z",
+      "make": "BMW",
+      "model": "3 Series",
+      "status": "Valued",
+      "price": 25000,
+      "image": "https://nathanjobson.com/eva-appraisals/images/S22OSG.jpg"
+    },
+    {
+      "registration": "LV73ZTJ",
+      "appraisedAt": "2026-10-15T11:18:13.452Z",
+      "make": "BMW",
+      "model": "1 Series",
+      "status": "Valued",
+      "price": 16000,
+      "image": null
+    },
+    {
+      "registration": "MJ23DHE",
+      "appraisedAt": "2026-10-15T10:41:06.024Z",
+      "make": "AUDI",
+      "model": "A3",
+      "status": "Valued",
+      "price": 21000,
+      "image": null
+    },
+    {
+      "registration": "N70MKC",
+      "appraisedAt": "2026-10-15T09:51:50.389Z",
+      "make": "BMW",
+      "model": "4 Series",
+      "status": "Valued",
+      "price": 8000,
+      "image": "https://nathanjobson.com/eva-appraisals/images/N70MKC.png"
+    },
+    {
+      "registration": "LX65WRO",
+      "appraisedAt": "2026-10-15T09:15:49.119Z",
+      "make": "BMW",
+      "model": "4 Series",
+      "status": "Valued",
+      "price": 7270,
+      "image": null
+    },
+    {
+      "registration": "A2UTA",
+      "appraisedAt": "2026-10-15T08:22:14.509Z",
+      "make": "BMW",
+      "model": "3 Series",
+      "status": "Valued",
+      "price": 24500,
+      "image": null
+    },
+    {
+      "registration": "HX23XEC",
+      "appraisedAt": "2026-10-14T14:31:15.087Z",
+      "make": "BMW",
+      "model": "2 Series",
+      "status": "Valued",
+      "price": 21500,
+      "image": "https://nathanjobson.com/eva-appraisals/images/HX23XEC.jpg"
+    },
+    {
+      "registration": "M18NNL",
+      "appraisedAt": "2026-10-14T14:13:00.406Z",
+      "make": "BMW",
+      "model": "3 Series",
+      "status": "Valued",
+      "price": 1750,
+      "image": null
+    },
+    {
+      "registration": "LV17KKH",
+      "appraisedAt": "2026-10-14T12:02:03.598Z",
+      "make": "BMW",
+      "model": "X1",
+      "status": "Valued",
+      "price": 8416,
+      "image": null
+    },
+    {
+      "registration": "LX24HNC",
+      "appraisedAt": "2026-10-14T10:49:42.866Z",
+      "make": "BMW",
+      "model": "1 Series",
+      "status": "Valued",
+      "price": 16250,
+      "image": "https://nathanjobson.com/eva-appraisals/images/LX24HNC.jpg"
+    },
+    {
+      "registration": "MV16XAP",
+      "appraisedAt": "2026-10-14T09:36:55.627Z",
+      "make": "JAGUAR",
+      "model": "F-Type",
+      "status": "Valued",
+      "price": 21000,
+      "image": "https://nathanjobson.com/eva-appraisals/images/MV16XAP.jpg"
+    },
+    {
+      "registration": "EN15HDV",
+      "appraisedAt": "2026-10-14T09:08:15.382Z",
+      "make": "SMART",
+      "model": "forfour",
+      "status": "SaleInProgress",
+      "price": 2201,
+      "image": "https://nathanjobson.com/eva-appraisals/images/EN15HDV.jpg"
+    },
+    {
+      "registration": "YK68EAM",
+      "appraisedAt": "2026-10-14T08:55:39.015Z",
+      "make": "BMW",
+      "model": "3 Series",
+      "status": "Appraised",
+      "price": 14737,
+      "image": null
+    },
+    {
+      "registration": "GJ22KWK",
+      "appraisedAt": "2026-10-13T14:18:54.509Z",
+      "make": "BMW",
+      "model": "3 Series",
+      "status": "SaleInProgress",
+      "price": 17080,
+      "image": "https://nathanjobson.com/eva-appraisals/images/GJ22KWK.jpg"
+    },
+    {
+      "registration": "P1SAN",
+      "appraisedAt": "2026-10-13T14:07:15.257Z",
+      "make": "BMW",
+      "model": "X1",
+      "status": "Valued",
+      "price": 15500,
+      "image": "https://nathanjobson.com/eva-appraisals/images/P1SAN.jpg"
+    },
+    {
+      "registration": "YA18ZDT",
+      "appraisedAt": "2026-10-13T11:23:06.908Z",
+      "make": "BMW",
+      "model": "3 Series",
+      "status": "SaleInProgress",
+      "price": 9214,
+      "image": "https://nathanjobson.com/eva-appraisals/images/YA18ZDT.jpg"
+    },
+    {
+      "registration": "X15LEN",
+      "appraisedAt": "2026-10-13T11:14:42.722Z",
+      "make": "MERCEDES-BENZ",
+      "model": "A Class",
+      "status": "Valued",
+      "price": 10817,
+      "image": "https://nathanjobson.com/eva-appraisals/images/X15LEN.png"
+    },
+    {
+      "registration": "YD24JUR",
+      "appraisedAt": "2026-10-13T11:05:37.369Z",
+      "make": "BMW",
+      "model": "3 Series",
+      "status": "Valued",
+      "price": 27675,
+      "image": null
+    },
+    {
+      "registration": "LX73HYM",
+      "appraisedAt": "2026-10-13T10:50:38.624Z",
+      "make": "BMW",
+      "model": "4 Series Gran Coupe",
+      "status": "Valued",
+      "price": 26250,
+      "image": null
+    },
+    {
+      "registration": "LV23EXH",
+      "appraisedAt": "2026-10-13T09:47:11.461Z",
+      "make": "BMW",
+      "model": "4 Series Gran Coupe",
+      "status": "Valued",
+      "price": 23000,
+      "image": null
+    },
+    {
+      "registration": "VE68URU",
+      "appraisedAt": "2026-10-13T09:14:46.531Z",
+      "make": "BMW",
+      "model": "4 Series Gran Coupe",
+      "status": "SaleInProgress",
+      "price": 14967,
+      "image": "https://nathanjobson.com/eva-appraisals/images/VE68URU.jpg"
+    },
+    {
+      "registration": "J66SND",
+      "appraisedAt": "2026-10-13T08:19:51.948Z",
+      "make": "FORD",
+      "model": "Kuga",
+      "status": "Valued",
+      "price": 12654,
+      "image": null
+    },
+    {
+      "registration": "YJ13NNX",
+      "appraisedAt": "2026-10-12T15:21:26.166Z",
+      "make": "BMW",
+      "model": "X1",
+      "status": "Valued",
+      "price": 3000,
+      "image": "https://nathanjobson.com/eva-appraisals/images/YJ13NNX.jpg"
+    },
+    {
+      "registration": "EA69ZFY",
+      "appraisedAt": "2026-10-12T15:07:53.624Z",
+      "make": "VOLKSWAGEN",
+      "model": "Tiguan",
+      "status": "Returned",
+      "price": 11060,
+      "image": null
+    },
+    {
+      "registration": "YH13NNX",
+      "appraisedAt": "2026-10-12T15:06:48.462Z",
+      "make": "VAUXHALL",
+      "model": "Corsa",
+      "status": "Valued",
+      "price": 633,
+      "image": "https://nathanjobson.com/eva-appraisals/images/YH13NNX.jpg"
+    },
+    {
+      "registration": "GJ69NWZ",
+      "appraisedAt": "2026-10-12T14:59:35.655Z",
+      "make": "MERCEDES-BENZ",
+      "model": "A Class",
+      "status": "Returned",
+      "price": 10269,
+      "image": "https://nathanjobson.com/eva-appraisals/images/GJ69NWZ.png"
+    },
+    {
+      "registration": "L33JYS",
+      "appraisedAt": "2026-10-12T14:36:10.820Z",
+      "make": "MERCEDES-BENZ",
+      "model": "A Class",
+      "status": "Returned",
+      "price": 9778,
+      "image": "https://nathanjobson.com/eva-appraisals/images/L33JYS.jpg"
+    },
+    {
+      "registration": "OW02PAR",
+      "appraisedAt": "2026-10-12T14:05:11.589Z",
+      "make": "FORD",
+      "model": "Focus",
+      "status": "Returned",
+      "price": 6093,
+      "image": "https://nathanjobson.com/eva-appraisals/images/OW02PAR.png"
+    },
+    {
+      "registration": "CX68HBG",
+      "appraisedAt": "2026-10-12T12:44:12.226Z",
+      "make": "BMW",
+      "model": "X2",
+      "status": "Returned",
+      "price": 13118,
+      "image": "https://nathanjobson.com/eva-appraisals/images/CX68HBG.jpg"
+    },
+    {
+      "registration": "GD15EEU",
+      "appraisedAt": "2026-10-12T11:30:53.158Z",
+      "make": "BMW",
+      "model": "4 Series",
+      "status": "Valued",
+      "price": 11378,
+      "image": null
+    },
+    {
+      "registration": "AV24WJO",
+      "appraisedAt": "2026-10-12T10:46:32.814Z",
+      "make": "BMW",
+      "model": "X2",
+      "status": "Valued",
+      "price": 27000,
+      "image": "https://nathanjobson.com/eva-appraisals/images/AV24WJO.jpg"
+    },
+    {
+      "registration": "ARV50N",
+      "appraisedAt": "2026-10-12T10:07:41.844Z",
+      "make": "BMW",
+      "model": "X3",
+      "status": "Valued",
+      "price": 32174,
+      "image": null
+    },
+    {
+      "registration": "YC21VUX",
+      "appraisedAt": "2026-10-12T09:36:47.545Z",
+      "make": "AUDI",
+      "model": "Q5",
+      "status": "Valued",
+      "price": 15500,
+      "image": null
+    },
+    {
+      "registration": "LV72CSO",
+      "appraisedAt": "2026-10-12T09:17:28.366Z",
+      "make": "BMW",
+      "model": "5 Series",
+      "status": "Valued",
+      "price": 24000,
+      "image": null
+    },
+    {
+      "registration": "LV72YVB",
+      "appraisedAt": "2026-10-12T09:17:18.074Z",
+      "make": "HONDA",
+      "model": "CR-V",
+      "status": "Returned",
+      "price": 17850,
+      "image": "https://nathanjobson.com/eva-appraisals/images/LV72YVB.jpg"
+    },
+    {
+      "registration": "AY72GXA",
+      "appraisedAt": "2026-10-12T08:58:05.437Z",
+      "make": "BMW",
+      "model": "X3",
+      "status": "Returned",
+      "price": 23617,
+      "image": "https://nathanjobson.com/eva-appraisals/images/AY72GXA.jpg"
+    },
+    {
+      "registration": "N11PHL",
+      "appraisedAt": "2026-10-10T16:46:40.114Z",
+      "make": "PORSCHE",
+      "model": "Macan",
+      "status": "Valued",
+      "price": 23975,
+      "image": "https://nathanjobson.com/eva-appraisals/images/N11PHL.jpg"
+    },
+    {
+      "registration": "LX73JOJ",
+      "appraisedAt": "2026-10-10T16:15:31.097Z",
+      "make": "BMW",
+      "model": "X4",
+      "status": "Valued",
+      "price": 35811,
+      "image": "https://nathanjobson.com/eva-appraisals/images/LX73JOJ.jpg"
+    },
+    {
+      "registration": "EY69ZPG",
+      "appraisedAt": "2026-10-10T13:11:39.489Z",
+      "make": "VOLKSWAGEN",
+      "model": "Tiguan",
+      "status": "Returned",
+      "price": 12144,
+      "image": "https://nathanjobson.com/eva-appraisals/images/EY69ZPG.jpg"
+    },
+    {
+      "registration": "BL69YXO",
+      "appraisedAt": "2026-10-10T13:09:56.675Z",
+      "make": "NISSAN",
+      "model": "Qashqai",
+      "status": "Valued",
+      "price": 6000,
+      "image": "https://nathanjobson.com/eva-appraisals/images/BL69YXO.jpg"
+    },
+    {
+      "registration": "LH12AMX",
+      "appraisedAt": "2026-10-10T12:16:22.002Z",
+      "make": "BMW",
+      "model": "5 Series Gran Turismo",
+      "status": "Valued",
+      "price": 2500,
+      "image": null
+    },
+    {
+      "registration": "LX74HTE",
+      "appraisedAt": "2026-10-10T12:11:28.638Z",
+      "make": "BMW",
+      "model": "X3",
+      "status": "SaleInProgress",
+      "price": 34864,
+      "image": "https://nathanjobson.com/eva-appraisals/images/LX74HTE.jpg"
+    },
+    {
+      "registration": "LV72CVK",
+      "appraisedAt": "2026-10-10T11:16:24.909Z",
+      "make": "MINI",
+      "model": "Convertible",
+      "status": "Returned",
+      "price": 15214,
+      "image": "https://nathanjobson.com/eva-appraisals/images/LV72CVK.jpg"
+    },
+    {
+      "registration": "LV73ZRT",
+      "appraisedAt": "2026-10-10T10:14:34.350Z",
+      "make": "BMW",
+      "model": "1 Series",
+      "status": "Valued",
+      "price": 16345,
+      "image": "https://nathanjobson.com/eva-appraisals/images/LV73ZRT.jpg"
+    },
+    {
+      "registration": "FG71UEO",
+      "appraisedAt": "2026-10-10T10:10:06.260Z",
+      "make": "BMW",
+      "model": "1 Series",
+      "status": "Returned",
+      "price": 12954,
+      "image": "https://nathanjobson.com/eva-appraisals/images/FG71UEO.jpg"
+    },
+    {
+      "registration": "GX67YCG",
+      "appraisedAt": "2026-10-10T09:31:28.948Z",
+      "make": "BMW",
+      "model": "3 Series Gran Turismo",
+      "status": "Valued",
+      "price": 7000,
+      "image": "https://nathanjobson.com/eva-appraisals/images/GX67YCG.jpg"
+    },
+    {
+      "registration": "LW17GVE",
+      "appraisedAt": "2026-10-10T08:42:15.261Z",
+      "make": "NISSAN",
+      "model": "Juke",
+      "status": "Returned",
+      "price": 2962,
+      "image": "https://nathanjobson.com/eva-appraisals/images/LW17GVE.jpg"
+    },
+    {
+      "registration": "GF24RXB",
+      "appraisedAt": "2026-10-09T17:01:16.161Z",
+      "make": "FORD",
+      "model": "Puma",
+      "status": "Valued",
+      "price": 18197,
+      "image": "https://nathanjobson.com/eva-appraisals/images/GF24RXB.png"
+    },
+    {
+      "registration": "YL15TDU",
+      "appraisedAt": "2026-10-09T15:27:33.329Z",
+      "make": "SEAT",
+      "model": "Leon",
+      "status": "Valued",
+      "price": 2350,
+      "image": "https://nathanjobson.com/eva-appraisals/images/YL15TDU.jpg"
+    },
+    {
+      "registration": "LV72JUU",
+      "appraisedAt": "2026-10-09T12:56:38.278Z",
+      "make": "BMW",
+      "model": "X5",
+      "status": "Valued",
+      "price": 35000,
+      "image": null
+    },
+    {
+      "registration": "T8AMR",
+      "appraisedAt": "2026-10-09T10:45:03.201Z",
+      "make": "BMW",
+      "model": "5 Series",
+      "status": "Valued",
+      "price": 18000,
+      "image": "https://nathanjobson.com/eva-appraisals/images/T8AMR.jpg"
+    },
+    {
+      "registration": "LX25JYA",
+      "appraisedAt": "2026-10-08T16:23:04.085Z",
+      "make": "BMW",
+      "model": "1 Series",
+      "status": "Valued",
+      "price": 28000,
+      "image": "https://nathanjobson.com/eva-appraisals/images/LX25JYA.jpg"
+    },
+    {
+      "registration": "LD20ZRN",
+      "appraisedAt": "2026-10-08T15:05:19.045Z",
+      "make": "BMW",
+      "model": "3 Series",
+      "status": "Expired",
+      "price": 24744,
+      "image": "https://nathanjobson.com/eva-appraisals/images/LD20ZRN.jpg"
+    },
+    {
+      "registration": "OY20UER",
+      "appraisedAt": "2026-10-08T12:56:12.360Z",
+      "make": "BMW",
+      "model": "3 Series",
+      "status": "Valued",
+      "price": 13054,
+      "image": "https://nathanjobson.com/eva-appraisals/images/OY20UER.jpg"
+    },
+    {
+      "registration": "BM66BAR",
+      "appraisedAt": "2026-10-08T12:08:44.828Z",
+      "make": "BMW",
+      "model": "5 Series",
+      "status": "Valued",
+      "price": 8000,
+      "image": "https://nathanjobson.com/eva-appraisals/images/BM66BAR.png"
+    },
+    {
+      "registration": "LV66MZG",
+      "appraisedAt": "2026-10-08T10:51:10.499Z",
+      "make": "BMW",
+      "model": "3 Series",
+      "status": "Valued",
+      "price": 7500,
+      "image": "https://nathanjobson.com/eva-appraisals/images/LV66MZG.jpg"
+    },
+    {
+      "registration": "GN70NKZ",
+      "appraisedAt": "2026-10-07T16:03:32.157Z",
+      "make": "FORD",
+      "model": "Fiesta",
+      "status": "Returned",
+      "price": 6433,
+      "image": "https://nathanjobson.com/eva-appraisals/images/GN70NKZ.jpg"
+    },
+    {
+      "registration": "SG70SOU",
+      "appraisedAt": "2026-10-07T15:44:43.365Z",
+      "make": "MINI",
+      "model": "Electric Hatch",
+      "status": "Expired",
+      "price": 9750,
+      "image": null
+    },
+    {
+      "registration": "LY73AXU",
+      "appraisedAt": "2026-10-07T14:53:35.204Z",
+      "make": "BMW",
+      "model": "4 Series",
+      "status": "Expired",
+      "price": 31874,
+      "image": null
+    },
+    {
+      "registration": "DV15EYT",
+      "appraisedAt": "2026-10-07T13:30:01.339Z",
+      "make": "VAUXHALL",
+      "model": "Mokka",
+      "status": "Returned",
+      "price": 1619,
+      "image": "https://nathanjobson.com/eva-appraisals/images/DV15EYT.jpg"
+    },
+    {
+      "registration": "ST21VZB",
+      "appraisedAt": "2026-10-07T10:36:42.385Z",
+      "make": "LAND ROVER",
+      "model": "Defender 110",
+      "status": "Expired",
+      "price": 36535,
+      "image": "https://nathanjobson.com/eva-appraisals/images/ST21VZB.jpg"
+    },
+    {
+      "registration": "EX11XAF",
+      "appraisedAt": "2026-10-07T10:04:07.605Z",
+      "make": "HONDA",
+      "model": "Civic",
+      "status": "Expired",
+      "price": 300,
+      "image": null
+    },
+    {
+      "registration": "HV12JXH",
+      "appraisedAt": "2026-10-06T15:20:07.696Z",
+      "make": "VAUXHALL",
+      "model": "Corsa",
+      "status": "Returned",
+      "price": 2729,
+      "image": null
+    },
+    {
+      "registration": "Y22UFS",
+      "appraisedAt": "2026-10-06T08:48:39.174Z",
+      "make": "AUDI",
+      "model": "Q8",
+      "status": "Expired",
+      "price": 31500,
+      "image": null
+    },
+    {
+      "registration": "VS05XXX",
+      "appraisedAt": "2026-10-06T08:38:30.349Z",
+      "make": "BMW",
+      "model": "4 Series Gran Coupe",
+      "status": "Expired",
+      "price": 14458,
+      "image": "https://nathanjobson.com/eva-appraisals/images/VS05XXX.jpg"
+    },
+    {
+      "registration": "LV11KKR",
+      "appraisedAt": "2026-10-06T08:08:57.625Z",
+      "make": "BMW",
+      "model": "1 Series",
+      "status": "Expired",
+      "price": 1400,
+      "image": "https://nathanjobson.com/eva-appraisals/images/LV11KKR.png"
+    },
+    {
+      "registration": "GN66UEM",
+      "appraisedAt": "2026-10-05T15:59:43.927Z",
+      "make": "AUDI",
+      "model": "SQ5",
+      "status": "Returned",
+      "price": 17008,
+      "image": "https://nathanjobson.com/eva-appraisals/images/GN66UEM.jpg"
+    },
+    {
+      "registration": "GJ72KWK",
+      "appraisedAt": "2026-10-05T15:38:40.987Z",
+      "make": "VOLKSWAGEN",
+      "model": "Polo",
+      "status": "Expired",
+      "price": 12477,
+      "image": null
+    },
+    {
+      "registration": "EY24KLX",
+      "appraisedAt": "2026-10-05T15:22:42.831Z",
+      "make": "BMW",
+      "model": "X5",
+      "status": "Expired",
+      "price": 44000,
+      "image": "https://nathanjobson.com/eva-appraisals/images/EY24KLX.jpg"
+    },
+    {
+      "registration": "LV74HRZ",
+      "appraisedAt": "2026-10-05T14:23:56.040Z",
+      "make": "BMW",
+      "model": "X3",
+      "status": "SaleInProgress",
+      "price": 36000,
+      "image": "https://nathanjobson.com/eva-appraisals/images/LV74HRZ.jpg"
+    },
+    {
+      "registration": "LX21JZE",
+      "appraisedAt": "2026-10-05T13:33:29.692Z",
+      "make": "BMW",
+      "model": "X3",
+      "status": "Expired",
+      "price": 21710,
+      "image": null
+    },
+    {
+      "registration": "HJ69OPU",
+      "appraisedAt": "2026-10-05T13:31:21.962Z",
+      "make": "BMW",
+      "model": "X5",
+      "status": "Expired",
+      "price": 25750,
+      "image": null
+    },
+    {
+      "registration": "RY19HLZ",
+      "appraisedAt": "2026-10-05T12:58:18.992Z",
+      "make": "BMW",
+      "model": "X4",
+      "status": "Expired",
+      "price": 18000,
+      "image": null
+    },
+    {
+      "registration": "YL73ELX",
+      "appraisedAt": "2026-10-05T12:26:48.773Z",
+      "make": "BMW",
+      "model": "2 Series Gran Coupe",
+      "status": "SaleInProgress",
+      "price": 17560,
+      "image": "https://nathanjobson.com/eva-appraisals/images/YL73ELX.jpg"
+    },
+    {
+      "registration": "GD75HLH",
+      "appraisedAt": "2026-10-05T11:03:07.381Z",
+      "make": "VOLKSWAGEN",
+      "model": "Tiguan",
+      "status": "Expired",
+      "price": 23000,
+      "image": "https://nathanjobson.com/eva-appraisals/images/GD75HLH.jpg"
+    },
+    {
+      "registration": "FL22HXZ",
+      "appraisedAt": "2026-10-05T10:25:16.864Z",
+      "make": "BMW",
+      "model": "X5",
+      "status": "Expired",
+      "price": 32000,
+      "image": null
+    },
+    {
+      "registration": "YP71LUH",
+      "appraisedAt": "2026-10-05T10:05:29.582Z",
+      "make": "VOLVO",
+      "model": "XC40",
+      "status": "Expired",
+      "price": 12000,
+      "image": "https://nathanjobson.com/eva-appraisals/images/YP71LUH.jpg"
+    },
+    {
+      "registration": "CD20DOD",
+      "appraisedAt": "2026-10-05T08:52:32.053Z",
+      "make": "BMW",
+      "model": "X2",
+      "status": "SaleInProgress",
+      "price": 27000,
+      "image": "https://nathanjobson.com/eva-appraisals/images/CD20DOD.jpg"
+    },
+    {
+      "registration": "N55TEX",
+      "appraisedAt": "2026-10-05T07:53:13.794Z",
+      "make": "AUDI",
+      "model": "A3",
+      "status": "Expired",
+      "price": 3740,
+      "image": null
+    },
+    {
+      "registration": "ET17PKC",
+      "appraisedAt": "2026-10-03T16:04:07.912Z",
+      "make": "HYUNDAI",
+      "model": "Santa Fe",
+      "status": "Expired",
+      "price": 10306,
+      "image": "https://nathanjobson.com/eva-appraisals/images/ET17PKC.jpg"
+    },
+    {
+      "registration": "T1DVG",
+      "appraisedAt": "2026-10-03T11:54:36.932Z",
+      "make": "BMW",
+      "model": "4 Series",
+      "status": "SaleInProgress",
+      "price": 22000,
+      "image": "https://nathanjobson.com/eva-appraisals/images/T1DVG.jpg"
+    },
+    {
+      "registration": "GN23XLM",
+      "appraisedAt": "2026-10-03T09:06:17.572Z",
+      "make": "MG",
+      "model": "MG ZS",
+      "status": "Expired",
+      "price": 8000,
+      "image": "https://nathanjobson.com/eva-appraisals/images/GN23XLM.png"
+    },
+    {
+      "registration": "RA19FXZ",
+      "appraisedAt": "2026-10-02T16:19:22.926Z",
+      "make": "MERCEDES-BENZ",
+      "model": "C Class",
+      "status": "SaleInProgress",
+      "price": 9500,
+      "image": "https://nathanjobson.com/eva-appraisals/images/RA19FXZ.jpg"
+    },
+    {
+      "registration": "JA22KEH",
+      "appraisedAt": "2026-10-02T15:20:45.539Z",
+      "make": "BMW",
+      "model": "M3",
+      "status": "Expired",
+      "price": 53325,
+      "image": null
+    },
+    {
+      "registration": "LV20YCS",
+      "appraisedAt": "2026-10-02T14:48:59.308Z",
+      "make": "BMW",
+      "model": "X4",
+      "status": "Expired",
+      "price": 22750,
+      "image": "https://nathanjobson.com/eva-appraisals/images/LV20YCS.jpg"
+    },
+    {
+      "registration": "K7DHO",
+      "appraisedAt": "2026-10-02T12:20:15.535Z",
+      "make": "BMW",
+      "model": "M3",
+      "status": "UnableToEvaluate",
+      "price": 0,
+      "image": null
+    },
+    {
+      "registration": "LV71ODH",
+      "appraisedAt": "2026-10-02T09:24:00.829Z",
+      "make": "BMW",
+      "model": "X2",
+      "status": "Expired",
+      "price": 11500,
+      "image": "https://nathanjobson.com/eva-appraisals/images/LV71ODH.jpg"
+    },
+    {
+      "registration": "LX13LWG",
+      "appraisedAt": "2026-10-02T09:15:18.925Z",
+      "make": "BMW",
+      "model": "3 Series",
+      "status": "Expired",
+      "price": 2000,
+      "image": null
+    },
+    {
+      "registration": "H25JLK",
+      "appraisedAt": "2026-10-02T09:02:10.894Z",
+      "make": "BMW",
+      "model": "i7",
+      "status": "Expired",
+      "price": 35500,
+      "image": "https://nathanjobson.com/eva-appraisals/images/H25JLK.jpg"
+    },
+    {
+      "registration": "MM65GAZ",
+      "appraisedAt": "2026-10-01T15:23:09.733Z",
+      "make": "BMW",
+      "model": "X5",
+      "status": "SaleInProgress",
+      "price": 45257,
+      "image": "https://nathanjobson.com/eva-appraisals/images/MM65GAZ.jpg"
+    },
+    {
+      "registration": "LV72CTX",
+      "appraisedAt": "2026-10-01T14:50:18.283Z",
+      "make": "BMW",
+      "model": "5 Series",
+      "status": "Expired",
+      "price": 22000,
+      "image": null
+    },
+    {
+      "registration": "LA72RYH",
+      "appraisedAt": "2026-10-01T13:59:10.821Z",
+      "make": "BMW",
+      "model": "iX",
+      "status": "Expired",
+      "price": 29652,
+      "image": null
+    },
+    {
+      "registration": "DE71ONF",
+      "appraisedAt": "2026-10-01T13:42:27.447Z",
+      "make": "AUDI",
+      "model": "RS6 Avant",
+      "status": "SaleInProgress",
+      "price": 67686,
+      "image": "https://nathanjobson.com/eva-appraisals/images/DE71ONF.jpg"
+    },
+    {
+      "registration": "LY74PTX",
+      "appraisedAt": "2026-10-01T13:20:24.488Z",
+      "make": "BMW",
+      "model": "X6",
+      "status": "Expired",
+      "price": 51250,
+      "image": null
+    },
+    {
+      "registration": "AM16DAS",
+      "appraisedAt": "2026-10-01T12:34:38.352Z",
+      "make": "BMW",
+      "model": "X5",
+      "status": "Expired",
+      "price": 19032,
+      "image": null
+    },
+    {
+      "registration": "LX24KUT",
+      "appraisedAt": "2026-10-01T11:18:22.343Z",
+      "make": "LAND ROVER",
+      "model": "Discovery Sport",
+      "status": "Expired",
+      "price": 24000,
+      "image": "https://nathanjobson.com/eva-appraisals/images/LX24KUT.jpg"
+    },
+    {
+      "registration": "GL57EGX",
+      "appraisedAt": "2026-10-01T09:51:30.418Z",
+      "make": "MERCEDES-BENZ",
+      "model": "CLK",
+      "status": "Expired",
+      "price": 250,
+      "image": "https://nathanjobson.com/eva-appraisals/images/GL57EGX.jpg"
+    },
+    {
+      "registration": "C5OGW",
+      "appraisedAt": "2026-09-30T16:24:00.811Z",
+      "make": "VAUXHALL",
+      "model": "Corsa",
+      "status": "Expired",
+      "price": 2000,
+      "image": "https://nathanjobson.com/eva-appraisals/images/C5OGW.jpg"
+    },
+    {
+      "registration": "LAL3S",
+      "appraisedAt": "2026-09-30T14:46:29.308Z",
+      "make": "BMW",
+      "model": "3 Series",
+      "status": "Expired",
+      "price": 20500,
+      "image": "https://nathanjobson.com/eva-appraisals/images/LAL3S.jpg"
+    },
+    {
+      "registration": "GD74NXP",
+      "appraisedAt": "2026-09-30T13:06:01.848Z",
+      "make": "BMW",
+      "model": "3 Series",
+      "status": "Expired",
+      "price": 26927,
+      "image": null
+    },
+    {
+      "registration": "OO55EVE",
+      "appraisedAt": "2026-09-30T11:12:46.574Z",
+      "make": "KIA",
+      "model": "Picanto",
+      "status": "Expired",
+      "price": 11552,
+      "image": null
+    },
+    {
+      "registration": "D12JKC",
+      "appraisedAt": "2026-09-30T09:39:13.867Z",
+      "make": "BMW",
+      "model": "X5",
+      "status": "Expired",
+      "price": 30582,
+      "image": "https://nathanjobson.com/eva-appraisals/images/D12JKC.png"
+    },
+    {
+      "registration": "RJ22DWF",
+      "appraisedAt": "2026-09-30T09:13:26.125Z",
+      "make": "BMW",
+      "model": "X5 M",
+      "status": "Expired",
+      "price": 59700,
+      "image": "https://nathanjobson.com/eva-appraisals/images/RJ22DWF.jpg"
+    },
+    {
+      "registration": "LX23KKF",
+      "appraisedAt": "2026-09-29T15:08:54.673Z",
+      "make": "MERCEDES-BENZ",
+      "model": "GLA",
+      "status": "SaleInProgress",
+      "price": 20324,
+      "image": "https://nathanjobson.com/eva-appraisals/images/LX23KKF.jpg"
+    },
+    {
+      "registration": "LX73JNN",
+      "appraisedAt": "2026-09-29T12:45:35.591Z",
+      "make": "BMW",
+      "model": "3 Series",
+      "status": "Expired",
+      "price": 23500,
+      "image": "https://nathanjobson.com/eva-appraisals/images/LX73JNN.jpg"
+    },
+    {
+      "registration": "FG68DGO",
+      "appraisedAt": "2026-09-29T12:17:11.616Z",
+      "make": "TOYOTA",
+      "model": "AYGO",
+      "status": "Expired",
+      "price": 5500,
+      "image": "https://nathanjobson.com/eva-appraisals/images/FG68DGO.jpg"
+    },
+    {
+      "registration": "F6RMC",
+      "appraisedAt": "2026-09-29T12:15:51.650Z",
+      "make": "BMW",
+      "model": "M4",
+      "status": "Expired",
+      "price": 21891,
+      "image": null
+    },
+    {
+      "registration": "LW19HTF",
+      "appraisedAt": "2026-09-29T11:47:20.948Z",
+      "make": "BMW",
+      "model": "X7",
+      "status": "SaleInProgress",
+      "price": 36428,
+      "image": "https://nathanjobson.com/eva-appraisals/images/LW19HTF.jpg"
+    },
+    {
+      "registration": "ST23PZZ",
+      "appraisedAt": "2026-09-29T09:41:47.328Z",
+      "make": "BMW",
+      "model": "X4",
+      "status": "Expired",
+      "price": 35000,
+      "image": null
+    },
+    {
+      "registration": "LV75UNB",
+      "appraisedAt": "2026-09-28T13:15:14.615Z",
+      "make": "BMW",
+      "model": "X3",
+      "status": "SaleInProgress",
+      "price": 43642,
+      "image": "https://nathanjobson.com/eva-appraisals/images/LV75UNB.jpg"
+    },
+    {
+      "registration": "GC21FYT",
+      "appraisedAt": "2026-09-28T11:52:48.918Z",
+      "make": "BMW",
+      "model": "1 Series",
+      "status": "Expired",
+      "price": 13000,
+      "image": null
+    },
+    {
+      "registration": "MH60MEL",
+      "appraisedAt": "2026-09-28T11:15:45.246Z",
+      "make": "MERCEDES-BENZ",
+      "model": "GLC",
+      "status": "SaleInProgress",
+      "price": 30436,
+      "image": "https://nathanjobson.com/eva-appraisals/images/MH60MEL.jpg"
+    },
+    {
+      "registration": "LV72CNC",
+      "appraisedAt": "2026-09-28T08:37:06.729Z",
+      "make": "BMW",
+      "model": "5 Series",
+      "status": "Returned",
+      "price": 19039,
+      "image": null
+    },
+    {
+      "registration": "BC25POV",
+      "appraisedAt": "2026-09-26T14:42:19.442Z",
+      "make": "BMW",
+      "model": "1 Series",
+      "status": "Expired",
+      "price": 29000,
+      "image": null
+    },
+    {
+      "registration": "VX68PGU",
+      "appraisedAt": "2026-09-26T12:00:19.406Z",
+      "make": "BMW",
+      "model": "2 Series Active Tourer",
+      "status": "Expired",
+      "price": 7500,
+      "image": "https://nathanjobson.com/eva-appraisals/images/VX68PGU.jpg"
+    },
+    {
+      "registration": "GK14EVB",
+      "appraisedAt": "2026-09-26T10:35:30.351Z",
+      "make": "VOLKSWAGEN",
+      "model": "Polo",
+      "status": "Expired",
+      "price": 1977,
+      "image": "https://nathanjobson.com/eva-appraisals/images/GK14EVB.png"
+    },
+    {
+      "registration": "LV72RGX",
+      "appraisedAt": "2026-09-26T10:00:47.439Z",
+      "make": "HONDA",
+      "model": "Civic",
+      "status": "Expired",
+      "price": 17500,
+      "image": "https://nathanjobson.com/eva-appraisals/images/LV72RGX.jpg"
+    },
+    {
+      "registration": "LV25YCZ",
+      "appraisedAt": "2026-09-26T09:32:16.373Z",
+      "make": "AUDI",
+      "model": "A1",
+      "status": "SaleInProgress",
+      "price": 17756,
+      "image": "https://nathanjobson.com/eva-appraisals/images/LV25YCZ.jpg"
+    },
+    {
+      "registration": "KM18UNU",
+      "appraisedAt": "2026-09-25T16:20:37.909Z",
+      "make": "PEUGEOT",
+      "model": "208",
+      "status": "Returned",
+      "price": 5412,
+      "image": "https://nathanjobson.com/eva-appraisals/images/KM18UNU.jpg"
+    },
+    {
+      "registration": "GF56VEY",
+      "appraisedAt": "2026-09-25T14:27:34.824Z",
+      "make": "VOLKSWAGEN",
+      "model": "Jetta",
+      "status": "Expired",
+      "price": 331,
+      "image": "https://nathanjobson.com/eva-appraisals/images/GF56VEY.jpg"
+    },
+    {
+      "registration": "LL19JZA",
+      "appraisedAt": "2026-09-25T14:00:28.743Z",
+      "make": "MERCEDES-BENZ",
+      "model": "GLC",
+      "status": "Expired",
+      "price": 10000,
+      "image": "https://nathanjobson.com/eva-appraisals/images/LL19JZA.jpg"
+    },
+    {
+      "registration": "BD67XLV",
+      "appraisedAt": "2026-09-25T12:09:10.851Z",
+      "make": "BMW",
+      "model": "4 Series",
+      "status": "Expired",
+      "price": 18961,
+      "image": "https://nathanjobson.com/eva-appraisals/images/BD67XLV.jpg"
+    },
+    {
+      "registration": "DT17OYD",
+      "appraisedAt": "2026-09-25T08:34:05.136Z",
+      "make": "BMW",
+      "model": "X5 M",
+      "status": "Expired",
+      "price": 60954,
+      "image": "https://nathanjobson.com/eva-appraisals/images/DT17OYD.jpg"
+    },
+    {
+      "registration": "LX23HXD",
+      "appraisedAt": "2026-09-25T07:43:33.879Z",
+      "make": "BMW",
+      "model": "3 Series",
+      "status": "SaleInProgress",
+      "price": 18805,
+      "image": "https://nathanjobson.com/eva-appraisals/images/LX23HXD.jpg"
+    },
+    {
+      "registration": "M9TML",
+      "appraisedAt": "2026-09-24T16:44:24.504Z",
+      "make": "BMW",
+      "model": "X7",
+      "status": "Expired",
+      "price": 36934,
+      "image": null
+    },
+    {
+      "registration": "YH69ZPD",
+      "appraisedAt": "2026-09-24T15:50:37.308Z",
+      "make": "BMW",
+      "model": "X1",
+      "status": "Expired",
+      "price": 14750,
+      "image": null
+    },
+    {
+      "registration": "LV73VOB",
+      "appraisedAt": "2026-09-24T14:13:53.985Z",
+      "make": "BMW",
+      "model": "3 Series",
+      "status": "Expired",
+      "price": 35152,
+      "image": null
+    },
+    {
+      "registration": "A19ENC",
+      "appraisedAt": "2026-09-24T12:48:29.122Z",
+      "make": "BMW",
+      "model": "M4",
+      "status": "Expired",
+      "price": 24193,
+      "image": null
+    },
+    {
+      "registration": "LV72MZO",
+      "appraisedAt": "2026-09-24T11:11:48.344Z",
+      "make": "BMW",
+      "model": "iX3",
+      "status": "SaleInProgress",
+      "price": 29174,
+      "image": "https://nathanjobson.com/eva-appraisals/images/LV72MZO.jpg"
+    },
+    {
+      "registration": "SJ19CBB",
+      "appraisedAt": "2026-09-24T10:50:49.594Z",
+      "make": "BMW",
+      "model": "1 Series",
+      "status": "Expired",
+      "price": 7800,
+      "image": "https://nathanjobson.com/eva-appraisals/images/SJ19CBB.png"
+    },
+    {
+      "registration": "YE73VJF",
+      "appraisedAt": "2026-09-24T10:47:34.368Z",
+      "make": "BMW",
+      "model": "X3",
+      "status": "Expired",
+      "price": 28000,
+      "image": "https://nathanjobson.com/eva-appraisals/images/YE73VJF.jpg"
+    },
+    {
+      "registration": "4MDF",
+      "appraisedAt": "2026-09-24T09:50:14.834Z",
+      "make": "BMW",
+      "model": "M3",
+      "status": "Expired",
+      "price": 55487,
+      "image": "https://nathanjobson.com/eva-appraisals/images/4MDF.jpg"
+    },
+    {
+      "registration": "LD73HSA",
+      "appraisedAt": "2026-09-23T13:24:22.538Z",
+      "make": "MINI",
+      "model": "Hatch",
+      "status": "Expired",
+      "price": 15964,
+      "image": "https://nathanjobson.com/eva-appraisals/images/LD73HSA.jpg"
+    },
+    {
+      "registration": "LV22RWF",
+      "appraisedAt": "2026-09-23T13:14:19.273Z",
+      "make": "BMW",
+      "model": "1 Series",
+      "status": "Returned",
+      "price": 13254,
+      "image": "https://nathanjobson.com/eva-appraisals/images/LV22RWF.jpg"
+    },
+    {
+      "registration": "GL23ZPB",
+      "appraisedAt": "2026-09-23T11:16:34.535Z",
+      "make": "BMW",
+      "model": "1 Series",
+      "status": "Expired",
+      "price": 16640,
+      "image": "https://nathanjobson.com/eva-appraisals/images/GL23ZPB.jpg"
+    },
+    {
+      "registration": "LV72GUH",
+      "appraisedAt": "2026-09-23T10:25:54.195Z",
+      "make": "BMW",
+      "model": "4 Series",
+      "status": "Expired",
+      "price": 23328,
+      "image": null
+    },
+    {
+      "registration": "LD15OPS",
+      "appraisedAt": "2026-09-23T10:18:41.130Z",
+      "make": "MERCEDES-BENZ",
+      "model": "C Class",
+      "status": "Returned",
+      "price": 7301,
+      "image": "https://nathanjobson.com/eva-appraisals/images/LD15OPS.jpg"
+    },
+    {
+      "registration": "LV72NLT",
+      "appraisedAt": "2026-09-22T14:57:28.678Z",
+      "make": "BMW",
+      "model": "X3",
+      "status": "Expired",
+      "price": 38779,
+      "image": null
+    },
+    {
+      "registration": "K5CXR",
+      "appraisedAt": "2026-09-22T13:10:56.545Z",
+      "make": "BMW",
+      "model": "4 Series",
+      "status": "Expired",
+      "price": 31000,
+      "image": null
+    },
+    {
+      "registration": "LV71WKB",
+      "appraisedAt": "2026-09-22T12:35:19.453Z",
+      "make": "BMW",
+      "model": "4 Series",
+      "status": "Expired",
+      "price": 17000,
+      "image": null
+    },
+    {
+      "registration": "KA74BOS",
+      "appraisedAt": "2026-09-22T12:28:07.188Z",
+      "make": "VOLKSWAGEN",
+      "model": "Polo",
+      "status": "Expired",
+      "price": 13000,
+      "image": null
+    },
+    {
+      "registration": "LV73ZSL",
+      "appraisedAt": "2026-09-22T12:15:38.102Z",
+      "make": "BMW",
+      "model": "1 Series",
+      "status": "Expired",
+      "price": 17000,
+      "image": "https://nathanjobson.com/eva-appraisals/images/LV73ZSL.jpg"
+    },
+    {
+      "registration": "MK70UTY",
+      "appraisedAt": "2026-09-22T10:55:52.401Z",
+      "make": "PEUGEOT",
+      "model": "2008",
+      "status": "Expired",
+      "price": 7241,
+      "image": "https://nathanjobson.com/eva-appraisals/images/MK70UTY.jpg"
+    },
+    {
+      "registration": "AY73UFC",
+      "appraisedAt": "2026-09-22T09:35:11.821Z",
+      "make": "LAND ROVER",
+      "model": "Range Rover Sport",
+      "status": "Expired",
+      "price": 55809,
+      "image": null
+    },
+    {
+      "registration": "MP59MAZ",
+      "appraisedAt": "2026-09-22T09:30:01.641Z",
+      "make": "BMW",
+      "model": "3 Series",
+      "status": "Expired",
+      "price": 4000,
+      "image": "https://nathanjobson.com/eva-appraisals/images/MP59MAZ.jpg"
+    },
+    {
+      "registration": "MJ19ZDK",
+      "appraisedAt": "2026-09-22T09:22:16.626Z",
+      "make": "BMW",
+      "model": "X4",
+      "status": "Expired",
+      "price": 16500,
+      "image": "https://nathanjobson.com/eva-appraisals/images/MJ19ZDK.jpg"
+    },
+    {
+      "registration": "YG71TYH",
+      "appraisedAt": "2026-09-21T15:30:40.131Z",
+      "make": "BMW",
+      "model": "X1",
+      "status": "Expired",
+      "price": 12000,
+      "image": "https://nathanjobson.com/eva-appraisals/images/YG71TYH.jpg"
+    },
+    {
+      "registration": "LN72YSM",
+      "appraisedAt": "2026-09-21T15:16:50.024Z",
+      "make": "PORSCHE",
+      "model": "Macan",
+      "status": "Expired",
+      "price": 45511,
+      "image": null
+    },
+    {
+      "registration": "GJ22SKN",
+      "appraisedAt": "2026-09-21T10:41:22.221Z",
+      "make": "BMW",
+      "model": "X3",
+      "status": "SaleInProgress",
+      "price": 25426,
+      "image": "https://nathanjobson.com/eva-appraisals/images/GJ22SKN.jpg"
+    },
+    {
+      "registration": "A26YLL",
+      "appraisedAt": "2026-09-21T09:06:05.174Z",
+      "make": "AUDI",
+      "model": "A6 Allroad",
+      "status": "Expired",
+      "price": 11500,
+      "image": null
+    },
+    {
+      "registration": "BER610S",
+      "appraisedAt": "2026-09-21T09:03:13.710Z",
+      "make": "BMW",
+      "model": "Z4",
+      "status": "Expired",
+      "price": 7000,
+      "image": null
+    },
+    {
+      "registration": "HN73GOJ",
+      "appraisedAt": "2026-09-21T08:26:19.105Z",
+      "make": "AUDI",
+      "model": "A7",
+      "status": "Returned",
+      "price": 26839,
+      "image": "https://nathanjobson.com/eva-appraisals/images/HN73GOJ.jpg"
+    },
+    {
+      "registration": "V77DDB",
+      "appraisedAt": "2026-09-19T16:02:13.843Z",
+      "make": "ROLLS-ROYCE",
+      "model": "Dawn",
+      "status": "Expired",
+      "price": 126787,
+      "image": "https://nathanjobson.com/eva-appraisals/images/V77DDB.jpg"
+    },
+    {
+      "registration": "ET73XUA",
+      "appraisedAt": "2026-09-19T15:47:17.680Z",
+      "make": "BMW",
+      "model": "M3",
+      "status": "Expired",
+      "price": 59000,
+      "image": "https://nathanjobson.com/eva-appraisals/images/ET73XUA.jpg"
+    },
+    {
+      "registration": "DF22NZR",
+      "appraisedAt": "2026-09-19T15:36:36.212Z",
+      "make": "VOLKSWAGEN",
+      "model": "Tiguan",
+      "status": "Expired",
+      "price": 16750,
+      "image": "https://nathanjobson.com/eva-appraisals/images/DF22NZR.jpg"
+    },
+    {
+      "registration": "LV15KPG",
+      "appraisedAt": "2026-09-19T13:14:59.290Z",
+      "make": "BMW",
+      "model": "X4",
+      "status": "Returned",
+      "price": 10260,
+      "image": "https://nathanjobson.com/eva-appraisals/images/LV15KPG.jpg"
+    },
+    {
+      "registration": "AK72VVY",
+      "appraisedAt": "2026-09-19T13:13:36.023Z",
+      "make": "ALFA ROMEO",
+      "model": "Giulia",
+      "status": "Expired",
+      "price": 40924,
+      "image": null
+    },
+    {
+      "registration": "VN71OHJ",
+      "appraisedAt": "2026-09-19T13:01:12.565Z",
+      "make": "BMW",
+      "model": "X3",
+      "status": "Expired",
+      "price": 29000,
+      "image": "https://nathanjobson.com/eva-appraisals/images/VN71OHJ.jpg"
+    },
+    {
+      "registration": "T13YRP",
+      "appraisedAt": "2026-09-19T12:32:09.789Z",
+      "make": "BMW",
+      "model": "X5",
+      "status": "Expired",
+      "price": 57246,
+      "image": "https://nathanjobson.com/eva-appraisals/images/T13YRP.jpg"
+    },
+    {
+      "registration": "DS72NKD",
+      "appraisedAt": "2026-09-19T09:54:53.697Z",
+      "make": "NISSAN",
+      "model": "Leaf",
+      "status": "Expired",
+      "price": 8201,
+      "image": null
+    },
+    {
+      "registration": "DE12BEE",
+      "appraisedAt": "2026-09-19T09:13:14.939Z",
+      "make": "BMW",
+      "model": "Z4",
+      "status": "Expired",
+      "price": 8032,
+      "image": null
+    },
+    {
+      "registration": "YF66ZFT",
+      "appraisedAt": "2026-09-19T08:32:45.776Z",
+      "make": "BMW",
+      "model": "3 Series",
+      "status": "Returned",
+      "price": 3960,
+      "image": "https://nathanjobson.com/eva-appraisals/images/YF66ZFT.jpg"
+    },
+    {
+      "registration": "YE71JFK",
+      "appraisedAt": "2026-09-18T13:17:03.995Z",
+      "make": "BMW",
+      "model": "1 Series",
+      "status": "Returned",
+      "price": 13866,
+      "image": "https://nathanjobson.com/eva-appraisals/images/YE71JFK.jpg"
+    },
+    {
+      "registration": "BM15LYN",
+      "appraisedAt": "2026-09-18T12:16:08.208Z",
+      "make": "BMW",
+      "model": "1 Series",
+      "status": "SaleInProgress",
+      "price": 19000,
+      "image": "https://nathanjobson.com/eva-appraisals/images/BM15LYN.jpg"
+    },
+    {
+      "registration": "LM72HVO",
+      "appraisedAt": "2026-09-18T12:08:53.156Z",
+      "make": "BMW",
+      "model": "4 Series",
+      "status": "SaleInProgress",
+      "price": 25319,
+      "image": "https://nathanjobson.com/eva-appraisals/images/LM72HVO.jpg"
+    },
+    {
+      "registration": "LX73HZM",
+      "appraisedAt": "2026-09-18T11:15:40.542Z",
+      "make": "BMW",
+      "model": "1 Series",
+      "status": "SaleInProgress",
+      "price": 19487,
+      "image": "https://nathanjobson.com/eva-appraisals/images/LX73HZM.jpg"
+    },
+    {
+      "registration": "GC21ORG",
+      "appraisedAt": "2026-09-18T10:59:05.895Z",
+      "make": "ALFA ROMEO",
+      "model": "Giulia",
+      "status": "Expired",
+      "price": 17500,
+      "image": "https://nathanjobson.com/eva-appraisals/images/GC21ORG.png"
+    },
+    {
+      "registration": "LV73SRZ",
+      "appraisedAt": "2026-09-18T10:47:58.171Z",
+      "make": "AUDI",
+      "model": "A5",
+      "status": "Expired",
+      "price": 23584,
+      "image": null
+    },
+    {
+      "registration": "GX65MTF",
+      "appraisedAt": "2026-09-18T10:08:20.316Z",
+      "make": "LEXUS",
+      "model": "NX",
+      "status": "Returned",
+      "price": 10994,
+      "image": "https://nathanjobson.com/eva-appraisals/images/GX65MTF.jpg"
+    },
+    {
+      "registration": "YP25NRV",
+      "appraisedAt": "2026-09-18T09:08:18.701Z",
+      "make": "BMW",
+      "model": "1 Series",
+      "status": "SaleInProgress",
+      "price": 29070,
+      "image": "https://nathanjobson.com/eva-appraisals/images/YP25NRV.jpg"
+    },
+    {
+      "registration": "YS73ODX",
+      "appraisedAt": "2026-09-17T13:08:00.063Z",
+      "make": "BMW",
+      "model": "2 Series",
+      "status": "SaleInProgress",
+      "price": 24500,
+      "image": "https://nathanjobson.com/eva-appraisals/images/YS73ODX.jpg"
+    },
+    {
+      "registration": "LV23FHN",
+      "appraisedAt": "2026-09-17T12:07:23.978Z",
+      "make": "BMW",
+      "model": "1 Series",
+      "status": "Expired",
+      "price": 15143,
+      "image": null
+    },
+    {
+      "registration": "LV23FGJ",
+      "appraisedAt": "2026-09-17T09:06:39.081Z",
+      "make": "BMW",
+      "model": "3 Series",
+      "status": "SaleInProgress",
+      "price": 24802,
+      "image": "https://nathanjobson.com/eva-appraisals/images/LV23FGJ.jpg"
+    },
+    {
+      "registration": "E18RNW",
+      "appraisedAt": "2026-09-16T16:28:30.750Z",
+      "make": "VOLKSWAGEN",
+      "model": "Polo",
+      "status": "Expired",
+      "price": 8372,
+      "image": "https://nathanjobson.com/eva-appraisals/images/E18RNW.jpg"
+    },
+    {
+      "registration": "EU15XBY",
+      "appraisedAt": "2026-09-16T15:19:33.258Z",
+      "make": "VOLKSWAGEN",
+      "model": "up!",
+      "status": "Expired",
+      "price": 4691,
+      "image": null
+    },
+    {
+      "registration": "J80SHA",
+      "appraisedAt": "2026-09-16T14:20:50.453Z",
+      "make": "BMW",
+      "model": "2 Series Gran Coupe",
+      "status": "Expired",
+      "price": 20276,
+      "image": null
+    },
+    {
+      "registration": "DU22FTE",
+      "appraisedAt": "2026-09-16T11:48:45.762Z",
+      "make": "VOLKSWAGEN",
+      "model": "Tiguan",
+      "status": "Expired",
+      "price": 14128,
+      "image": null
+    },
+    {
+      "registration": "ET68LMM",
+      "appraisedAt": "2026-09-16T11:46:31.433Z",
+      "make": "BMW",
+      "model": "X4",
+      "status": "Expired",
+      "price": 18305,
+      "image": null
+    },
+    {
+      "registration": "GN19XTM",
+      "appraisedAt": "2026-09-15T17:00:52.121Z",
+      "make": "LAND ROVER",
+      "model": "Range Rover",
+      "status": "Returned",
+      "price": 19598,
+      "image": "https://nathanjobson.com/eva-appraisals/images/GN19XTM.jpg"
+    },
+    {
+      "registration": "LV69BZL",
+      "appraisedAt": "2026-09-15T16:58:42.496Z",
+      "make": "BMW",
+      "model": "4 Series Gran Coupe",
+      "status": "Returned",
+      "price": 14845,
+      "image": "https://nathanjobson.com/eva-appraisals/images/LV69BZL.jpg"
+    }
+  ]
 }
