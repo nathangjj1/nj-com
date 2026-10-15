@@ -122,6 +122,9 @@ async function screenshot(page, name) {
 }
 
 function blockedSignInReason(text) {
+  if (/request blocked/i.test(text)) {
+    return "eVA blocked this runner before the login page loaded. The job stops.";
+  }
   if (/block cookies/i.test(text)) {
     return "Azure AD B2C blocked this browser because cookies are unavailable.";
   }
@@ -134,10 +137,26 @@ function blockedSignInReason(text) {
   return null;
 }
 
+async function assertNotBlocked(page) {
+  const text = await page.locator("body").innerText().catch(() => "");
+  if (/request blocked/i.test(text)) {
+    await screenshot(page, "login.png");
+    throw new Error("eVA blocked this runner before the login page loaded. The job stops.");
+  }
+  return text;
+}
+
 async function signIn(page) {
   await page.goto(LOGIN_URL, { waitUntil: "domcontentloaded", timeout: 60000 });
+  await assertNotBlocked(page);
   const login = page.getByTestId("login");
-  await login.waitFor({ state: "visible", timeout: 30000 });
+  try {
+    await login.waitFor({ state: "visible", timeout: 30000 });
+  } catch (error) {
+    await assertNotBlocked(page);
+    await screenshot(page, "login.png");
+    throw error;
+  }
   await login.click();
 
   const emailField = await findVisible(
