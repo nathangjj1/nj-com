@@ -1,2 +1,3 @@
 node_modules/
 playwright-debug/
+eva.local.env

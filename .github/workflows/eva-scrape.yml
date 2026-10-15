@@ -1,4 +1,5 @@
-# Daily eVA appraisal feed.
+# Manual eVA appraisal feed. GitHub-hosted runners are blocked by eVA's front door.
+# Run scripts/run-eva.ps1 on a PC that can already open the site.
 #
 # Add these repository secrets before the first run
 # (Settings → Secrets and variables → Actions → New repository secret):
@@ -13,9 +14,6 @@
 name: eVA appraisals
 
 on:
-  schedule:
-    # 06:00 UTC every day. GitHub may start the job later than the scheduled minute.
-    - cron: "0 6 * * *"
   workflow_dispatch:
 
 permissions:

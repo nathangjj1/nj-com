@@ -336,13 +336,25 @@ async function writeFeed(appraisals) {
   await writeFile(path.join(outDir, "appraisals.json"), `${JSON.stringify(payload, null, 2)}\n`);
 }
 
+async function launchBrowser() {
+  const headless = process.env.EVA_HEADED !== "1";
+  if (process.env.EVA_BROWSER === "chrome") {
+    try {
+      return await chromium.launch({ headless, channel: "chrome" });
+    } catch {
+      console.error("Installed Chrome could not be started. Using Playwright's Chromium.");
+    }
+  }
+  return chromium.launch({ headless });
+}
+
 async function main() {
   requireCredentials();
   await mkdir(imageDir, { recursive: true });
   await mkdir(debugDir, { recursive: true });
 
   let authorization = "";
-  const browser = await chromium.launch({ headless: true });
+  const browser = await launchBrowser();
   const context = await browser.newContext({ viewport: { width: 1440, height: 900 } });
   const page = await context.newPage();
   page.on("request", (request) => {
