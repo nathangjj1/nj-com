@@ -28,6 +28,23 @@
     return String(shown).replace(/[\r\n]+/g, " ").trim();
   }
 
+  function sheetRange(XLSX, sheet) {
+    var range = null;
+    Object.keys(sheet).forEach(function (address) {
+      if (address.charAt(0) === "!") return;
+      var cell = XLSX.utils.decode_cell(address);
+      if (!range) {
+        range = { s: { r: cell.r, c: cell.c }, e: { r: cell.r, c: cell.c } };
+        return;
+      }
+      if (cell.r < range.s.r) range.s.r = cell.r;
+      if (cell.c < range.s.c) range.s.c = cell.c;
+      if (cell.r > range.e.r) range.e.r = cell.r;
+      if (cell.c > range.e.c) range.e.c = cell.c;
+    });
+    return range;
+  }
+
   function cellAt(XLSX, sheet, row, column) {
     return sheet[XLSX.utils.encode_cell({ r: row, c: column })];
   }
@@ -42,9 +59,8 @@
     }
 
     var sheet = workbook.Sheets[sheetName];
-    if (!sheet["!ref"]) throw new Error("The DOC sheet is empty.");
-
-    var range = XLSX.utils.decode_range(sheet["!ref"]);
+    var range = sheetRange(XLSX, sheet);
+    if (!range) throw new Error("The DOC sheet is empty.");
     var headerText = [];
     var columnIndex = new Map();
 
@@ -78,7 +94,9 @@
         var column = COLUMNS[i];
         row[column] = formatCell(XLSX, cellAt(XLSX, sheet, r, columnIndex.get(normalizeHeader(column))));
       }
-      if (row["AG Order Number"]) rows.push(row);
+      if (!row["AG Order Number"]) continue;
+      if (!row["Mdl Code"] && !row["Mdl Description"]) continue;
+      rows.push(row);
     }
 
     return { columns: COLUMNS.slice(), rows: rows, omitted: omitted };
@@ -87,7 +105,7 @@
   function parseDocArrayBuffer(buffer) {
     var XLSX = root.XLSX;
     if (!XLSX) throw new Error("The spreadsheet reader did not load.");
-    var workbook = XLSX.read(buffer, { type: "array" });
+    var workbook = XLSX.read(buffer, { type: "array", nodim: true });
     return parseDocWorkbook(XLSX, workbook);
   }
 

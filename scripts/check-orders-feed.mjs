@@ -75,7 +75,7 @@ function sampleBuffer() {
   ];
   const blank = headers.map(() => "");
   blank[blank.length - 1] = "secret only";
-  const totals = ["", "", "", "", "", "PU", "", "Est. Delivery Profit", "", "", "", ""];
+  const totals = ["", "", "", "FILTERED UNIT TOTAL", "266", "", "", "", "", "", "", ""];
   const sheet = XLSX.utils.aoa_to_sheet([["Weekly DOC"], headers, dated, blank, totals, numbered]);
   const dateCell = XLSX.utils.encode_cell({ r: 2, c: 1 });
   sheet[dateCell] = { t: "n", v: serial, z: "dd/mm/yyyy" };
@@ -91,6 +91,15 @@ assert.deepEqual(parsed.columns, COLUMNS);
 assert.deepEqual(parsed.omitted, ["Internal notes", "Margin"]);
 assert.equal(parsed.rows.length, 2);
 assert.equal(parsed.rows.every((row) => row["AG Order Number"]), true);
+assert.equal(parsed.rows.some((row) => row.Customer === "FILTERED UNIT TOTAL"), false);
+
+const clipped = XLSX.read(sampleBuffer(), { type: "array" });
+const clippedSheet = clipped.Sheets.DOC;
+const clippedRange = XLSX.utils.decode_range(clippedSheet["!ref"]);
+clippedRange.e.r = 3;
+clippedSheet["!ref"] = XLSX.utils.encode_range(clippedRange);
+const clippedParsed = JSON.parse(JSON.stringify(parseDocWorkbook(XLSX, clipped)));
+assert.equal(clippedParsed.rows.length, 2);
 assert.deepEqual(Object.keys(parsed.rows[0]), COLUMNS);
 assert.equal(parsed.rows[0]["Delivery Date"], "19/10/2026");
 assert.equal(parsed.rows[0].Customer, "Jane Customer");
