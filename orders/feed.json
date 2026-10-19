@@ -3253,30 +3253,6 @@
       "Fuel": "",
       "Sale Type": "",
       "Latest IVSR Status": ""
-    },
-    {
-      "Delivery Date": "",
-      "SE": "",
-      "Customer": "",
-      "AG Order Number": "",
-      "Status": "PU",
-      "Mdl Code": "",
-      "Mdl Description": "Est. Delivery Profit",
-      "Fuel": "",
-      "Sale Type": "",
-      "Latest IVSR Status": ""
-    },
-    {
-      "Delivery Date": "",
-      "SE": "",
-      "Customer": "",
-      "AG Order Number": "",
-      "Status": "100",
-      "Mdl Code": "",
-      "Mdl Description": "£26,600",
-      "Fuel": "",
-      "Sale Type": "",
-      "Latest IVSR Status": ""
     }
   ]
 }

@@ -75,7 +75,8 @@ function sampleBuffer() {
   ];
   const blank = headers.map(() => "");
   blank[blank.length - 1] = "secret only";
-  const sheet = XLSX.utils.aoa_to_sheet([["Weekly DOC"], headers, dated, blank, numbered]);
+  const totals = ["", "", "", "", "", "PU", "", "Est. Delivery Profit", "", "", "", ""];
+  const sheet = XLSX.utils.aoa_to_sheet([["Weekly DOC"], headers, dated, blank, totals, numbered]);
   const dateCell = XLSX.utils.encode_cell({ r: 2, c: 1 });
   sheet[dateCell] = { t: "n", v: serial, z: "dd/mm/yyyy" };
 
@@ -89,6 +90,7 @@ const parsed = JSON.parse(JSON.stringify(parseDocArrayBuffer(sampleBuffer())));
 assert.deepEqual(parsed.columns, COLUMNS);
 assert.deepEqual(parsed.omitted, ["Internal notes", "Margin"]);
 assert.equal(parsed.rows.length, 2);
+assert.equal(parsed.rows.every((row) => row["AG Order Number"]), true);
 assert.deepEqual(Object.keys(parsed.rows[0]), COLUMNS);
 assert.equal(parsed.rows[0]["Delivery Date"], "19/10/2026");
 assert.equal(parsed.rows[0].Customer, "Jane Customer");

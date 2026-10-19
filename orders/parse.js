@@ -74,14 +74,11 @@
     var rows = [];
     for (var r = HEADER_ROW + 1; r <= range.e.r; r += 1) {
       var row = {};
-      var blank = true;
       for (var i = 0; i < COLUMNS.length; i += 1) {
         var column = COLUMNS[i];
-        var value = formatCell(XLSX, cellAt(XLSX, sheet, r, columnIndex.get(normalizeHeader(column))));
-        row[column] = value;
-        if (value) blank = false;
+        row[column] = formatCell(XLSX, cellAt(XLSX, sheet, r, columnIndex.get(normalizeHeader(column))));
       }
-      if (!blank) rows.push(row);
+      if (row["AG Order Number"]) rows.push(row);
     }
 
     return { columns: COLUMNS.slice(), rows: rows, omitted: omitted };
