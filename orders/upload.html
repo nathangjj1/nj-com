@@ -5,13 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="robots" content="noindex">
     <meta http-equiv="Content-Security-Policy" content="default-src 'self'; connect-src 'self' https://api.github.com; style-src 'self'; script-src 'self'; base-uri 'none'; form-action 'none'">
-    <title>Update orders V2</title>
+    <title>Update orders V3</title>
     <link rel="stylesheet" href="orders.css">
   </head>
   <body>
     <main>
       <p class="eyebrow"><a href="./">Orders</a></p>
-      <h1>Update the feed <span class="version">V2</span></h1>
+      <h1>Update the feed <span class="version">V3</span></h1>
       <p class="intro">Choose the workbook. Headings are read from row 2 of the DOC sheet. Only these columns are kept:</p>
       <ul class="columns">
         <li>Delivery Date</li>
@@ -46,8 +46,8 @@
         </div>
       </div>
     </main>
-    <script src="vendor/xlsx.full.min.js"></script>
-    <script src="parse.js"></script>
-    <script src="upload.js"></script>
+    <script src="vendor/xlsx.full.min.js?v=3"></script>
+    <script src="parse.js?v=3"></script>
+    <script src="upload.js?v=3"></script>
   </body>
 </html>

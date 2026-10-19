@@ -88,18 +88,34 @@
     });
 
     var rows = [];
+    var skippedNoOrder = 0;
+    var skippedNoModel = 0;
     for (var r = HEADER_ROW + 1; r <= range.e.r; r += 1) {
       var row = {};
       for (var i = 0; i < COLUMNS.length; i += 1) {
         var column = COLUMNS[i];
         row[column] = formatCell(XLSX, cellAt(XLSX, sheet, r, columnIndex.get(normalizeHeader(column))));
       }
-      if (!row["AG Order Number"]) continue;
-      if (!row["Mdl Code"] && !row["Mdl Description"]) continue;
+      if (!row["AG Order Number"]) {
+        skippedNoOrder += 1;
+        continue;
+      }
+      if (!row["Mdl Code"] && !row["Mdl Description"]) {
+        skippedNoModel += 1;
+        continue;
+      }
       rows.push(row);
     }
 
-    return { columns: COLUMNS.slice(), rows: rows, omitted: omitted };
+    return {
+      columns: COLUMNS.slice(),
+      rows: rows,
+      omitted: omitted,
+      examined: range.e.r - HEADER_ROW,
+      lastRow: range.e.r + 1,
+      skippedNoOrder: skippedNoOrder,
+      skippedNoModel: skippedNoModel,
+    };
   }
 
   function parseDocArrayBuffer(buffer) {

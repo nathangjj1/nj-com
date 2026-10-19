@@ -100,6 +100,8 @@ clippedRange.e.r = 3;
 clippedSheet["!ref"] = XLSX.utils.encode_range(clippedRange);
 const clippedParsed = JSON.parse(JSON.stringify(parseDocWorkbook(XLSX, clipped)));
 assert.equal(clippedParsed.rows.length, 2);
+assert.ok(parsed.lastRow >= 6);
+assert.equal(parsed.skippedNoModel, 1);
 assert.deepEqual(Object.keys(parsed.rows[0]), COLUMNS);
 assert.equal(parsed.rows[0]["Delivery Date"], "19/10/2026");
 assert.equal(parsed.rows[0].Customer, "Jane Customer");

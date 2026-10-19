@@ -78,13 +78,18 @@
   function showResult(result, fileName) {
     parsed = result;
     var count = result.rows.length;
-    summary.textContent = fileName + " · " + (count === 1 ? "1 order" : count + " orders") + " ready to publish.";
+    summary.textContent = fileName + " · " + (count === 1 ? "1 order" : count + " orders")
+      + " from " + result.examined + " rows on DOC, through Excel row " + result.lastRow + ".";
+    var notes = [];
+    if (result.skippedNoOrder) notes.push(result.skippedNoOrder + " rows with no order number");
+    if (result.skippedNoModel) notes.push(result.skippedNoModel + " rows with no model");
+    if (result.omitted.length) notes.push("other columns: " + result.omitted.join(", "));
     if (count === 0) {
       omittedNode.textContent = "Nothing below the headings matched. Publishing will replace the live feed with an empty list.";
-    } else if (result.omitted.length) {
-      omittedNode.textContent = "Left out: " + result.omitted.join(", ") + ".";
+    } else if (notes.length) {
+      omittedNode.textContent = notes.join(". ") + ".";
     } else {
-      omittedNode.textContent = "Every column on row 2 is in the feed.";
+      omittedNode.textContent = "Every data row had an order number and a model.";
     }
     ready.hidden = false;
     renderPreview(result);
