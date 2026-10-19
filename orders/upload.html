@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="noindex">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; connect-src 'self' https://api.github.com; style-src 'self'; script-src 'self'; base-uri 'none'; form-action 'none'">
+    <title>Update orders</title>
+    <link rel="stylesheet" href="orders.css">
+  </head>
+  <body>
+    <main>
+      <p class="eyebrow"><a href="./">Orders</a></p>
+      <h1>Update the feed</h1>
+      <p class="intro">Choose the workbook. Headings are read from row 2 of the DOC sheet. Only these columns are kept:</p>
+      <ul class="columns">
+        <li>Delivery Date</li>
+        <li>SE</li>
+        <li>Customer</li>
+        <li>AG Order Number</li>
+        <li>Status</li>
+        <li>Mdl Code</li>
+        <li>Mdl Description</li>
+        <li>Fuel</li>
+        <li>Sale Type</li>
+        <li>Latest IVSR Status</li>
+      </ul>
+      <label class="drop" id="drop">
+        <input id="file" type="file" accept=".xlsx,.xlsm,.xls,application/vnd.openxmlformats-officedocument.spreadsheetml.sheet,application/vnd.ms-excel">
+        <span>Drop the spreadsheet here, or browse</span>
+      </label>
+      <p id="status" role="status"></p>
+      <section id="ready" hidden>
+        <p id="summary"></p>
+        <p id="omitted" class="hint"></p>
+        <label>GitHub token
+          <input id="token" type="password" autocomplete="off" spellcheck="false">
+        </label>
+        <p class="hint">Use a fine-grained personal access token for nathangjj1/nj-com, with Contents set to read and write. It stays in this tab and is not saved on the site.</p>
+        <button id="publish" type="button" disabled>Publish</button>
+      </section>
+      <div id="preview-wrap" hidden>
+        <p class="scroll-hint">Scroll sideways to see every column.</p>
+        <div class="table-scroller">
+          <table id="preview"></table>
+        </div>
+      </div>
+    </main>
+    <script src="vendor/xlsx.full.min.js"></script>
+    <script src="parse.js"></script>
+    <script src="upload.js"></script>
+  </body>
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="noindex">
+    <title>Orders</title>
+    <link rel="stylesheet" href="orders.css">
+  </head>
+  <body>
+    <main>
+      <p class="eyebrow">DOC</p>
+      <h1>Orders</h1>
+      <p id="meta" class="intro">Loading the feed.</p>
+      <div id="toolbar" class="toolbar" hidden>
+        <label>Search
+          <input id="search" type="search" autocomplete="off">
+        </label>
+        <a href="upload.html">Update the feed</a>
+      </div>
+      <p id="empty" class="empty" hidden>No orders in the feed yet.</p>
+      <div id="table-wrap" hidden>
+        <p class="scroll-hint">Scroll sideways to see every column.</p>
+        <div class="table-scroller">
+          <table id="orders"></table>
+        </div>
+      </div>
+    </main>
+    <script src="view.js"></script>
+  </body>
+</html>
