@@ -43,6 +43,18 @@ h1 {
   letter-spacing: -0.03em;
 }
 
+.version {
+  display: inline-block;
+  margin-left: 0.35rem;
+  padding: 0.1rem 0.45rem;
+  border-radius: 999px;
+  background: var(--accent);
+  color: #f7f6f2;
+  font-size: 0.85rem;
+  letter-spacing: 0.04em;
+  vertical-align: 0.35rem;
+}
+
 .intro { max-width: 42rem; margin: 0; color: var(--muted); }
 
 .columns {
