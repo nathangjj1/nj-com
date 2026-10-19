@@ -29,7 +29,7 @@
   height: 100vh;
   background: linear-gradient(to right, #EE7752, #E73C7E, #23A6D5, #23D5AB);
   background-size: 400% 100%;
-  animation: bg 20s infinite;
+  animation: bg 20s ease infinite;
 }
 
 @keyframes bg {
@@ -526,6 +526,42 @@ polygonCenter.addEventListener("click", function () {
     this.removeEventListener("click", arguments.callee);
 }, false);
 
+var bgMotion = null;
+
+function extraColorShift() {
+    var bg = document.querySelector(".bg");
+    var parts = getComputedStyle(bg).backgroundPosition.split(/\s+/);
+    var x = parts[0];
+    var y = parts[1] || "50%";
+    var xNum = parseFloat(x);
+    var unit = x.indexOf("%") !== -1 ? "%" : "px";
+    var step = unit === "%" ? 50 : bg.offsetWidth * 1.5;
+    var from = xNum + unit + " " + y;
+    var to = (xNum + step) + unit + " " + y;
+
+    if (bgMotion) {
+        bgMotion.onfinish = null;
+        bgMotion.cancel();
+        bgMotion = null;
+    }
+    bg.getAnimations().forEach(function (anim) { anim.cancel(); });
+    bg.style.animation = "none";
+    bg.style.backgroundPosition = from;
+
+    bgMotion = bg.animate([
+        { backgroundPosition: from, easing: "ease" },
+        { backgroundPosition: to }
+    ], { duration: 4500, fill: "forwards" });
+
+    bgMotion.onfinish = function () {
+        bgMotion = bg.animate([
+            { backgroundPosition: to, easing: "ease" },
+            { backgroundPosition: (xNum + step * 3) + unit + " " + y, easing: "ease", offset: 0.5 },
+            { backgroundPosition: to, offset: 1 }
+        ], { duration: 20000, iterations: Infinity });
+    };
+}
+
 var tl = new TimelineMax({ delay: 0.5, paused: true });
 
 tl.to(redDot, 0.5, { y: -1 });
@@ -543,6 +579,7 @@ tl.to(polygons[center + 1], 0.1, { opacity: 0.2, delay: 0.1 });
 tl.to(polygons[center], 0.1, { opacity: 0, delay: 0.1 });
 tl.to(polygons, 1, { rotation: 30, x: 20, y: -10 });
 tl.add("HeyYOU");
+tl.call(extraColorShift, null, null, "HeyYOU");
 tl.call(function () { startText.innerHTML = "Don't"; });
 tl.set(startText, { opacity: 0, attr: { textLength: 108 }, scale: 1, scaleX: 1, scaleY: 1, x: -21, fontSize: "2.5rem" });
 tl.staggerTo(polygons, 0.7, { scaleX: 1.2, scaleY: 0.8, ease: Power1.easeOut, stagger: { amount: 0.5, from: "center" } }, "HeyYOU");
@@ -561,16 +598,6 @@ tl.staggerTo(polygons, 1, { opacity: 0, ease: Elastic.easeInOut.config(1, 0.3), 
 tl.add("wordsDone", "-=1.2");
 tl.to(startText, 0.2, { opacity: 0 }, "wordsDone");
 tl.to("#nameLockup", 1.2, { opacity: 1 }, "wordsDone");
-tl.fromTo("#emailButton", 1.8, {
-    autoAlpha: 0,
-    y: 78
-}, {
-    autoAlpha: 1,
-    y: 0,
-    ease: Power2.easeOut,
-    immediateRender: true
-}, "wordsDone+=2.6");
-tl.call(function () { document.getElementById("emailButton").style.pointerEvents = "auto"; }, null, null, "wordsDone+=4.4");
 tl.set(polygons, { y: 500, opacity: 1 });
 tl.staggerTo(polygonsRows, 1, { y: 0, ease: Power3.easeOut, stagger: { amount: 1 } });
 tl.staggerTo(polygons, 1, { rotation: 0, x: 0, y: 0, ease: Back.easeOut.config(1.7), stagger: { amount: 1 } });
@@ -583,6 +610,16 @@ tl.staggerTo(polygons, 0.2, { fill: "url(#transparentGradient)", ease: Elastic.e
 tl.staggerTo(polygons, 2, { rotation: -60, yoyo: true, repeat: 1, ease: Sine.easeInOut, cycle: { y: [150, 150, 150, 150, 150, 150, 150, 150, 150, 150, 150, 150, 150, 150, 150, 150, 150, 150, 150, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] }, stagger: { amount: 0.5 } });
 tl.to(polygonCenter, 1, { scale: 0, rotation: 360, transformOrigin: "50% 50%" });
 tl.staggerTo("polygon:not(.center)", 1, { scale: 1, x: 0, y: 0, rotation: 0, ease: Elastic.easeInOut.config(1, 0.3) });
+tl.fromTo("#emailButton", 1.8, {
+    autoAlpha: 0,
+    y: 78
+}, {
+    autoAlpha: 1,
+    y: 0,
+    ease: Power2.easeOut,
+    immediateRender: true
+}, "wordsDone+=5.2");
+tl.call(function () { document.getElementById("emailButton").style.pointerEvents = "auto"; }, null, null, "wordsDone+=7");
 tl.to(".bg", 1, { opacity: 0 }, 31);
 tl.call(function () { document.getElementById("wrapper").style.animationPlayState = "running"; }, this, 30);
 tl.call(restartShow, this, 32);
