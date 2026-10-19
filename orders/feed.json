@@ -1,6 +1,6 @@
 {
   "sheet": "DOC",
-  "updated": "2026-10-19T17:35:52.221Z",
+  "updated": "2026-10-19T17:43:26.327Z",
   "columns": [
     "Delivery Date",
     "SE",
@@ -3205,78 +3205,6 @@
       "Fuel": "Petrol",
       "Sale Type": "WA",
       "Latest IVSR Status": "198"
-    },
-    {
-      "Delivery Date": "",
-      "SE": "",
-      "Customer": "FILTERED UNIT TOTAL",
-      "AG Order Number": "266",
-      "Status": "",
-      "Mdl Code": "",
-      "Mdl Description": "",
-      "Fuel": "",
-      "Sale Type": "",
-      "Latest IVSR Status": ""
-    },
-    {
-      "Delivery Date": "",
-      "SE": "",
-      "Customer": "Retail",
-      "AG Order Number": "220",
-      "Status": "",
-      "Mdl Code": "",
-      "Mdl Description": "",
-      "Fuel": "",
-      "Sale Type": "",
-      "Latest IVSR Status": ""
-    },
-    {
-      "Delivery Date": "",
-      "SE": "",
-      "Customer": "Motability",
-      "AG Order Number": "11",
-      "Status": "",
-      "Mdl Code": "",
-      "Mdl Description": "",
-      "Fuel": "",
-      "Sale Type": "",
-      "Latest IVSR Status": ""
-    },
-    {
-      "Delivery Date": "",
-      "SE": "",
-      "Customer": "Business",
-      "AG Order Number": "35",
-      "Status": "",
-      "Mdl Code": "",
-      "Mdl Description": "",
-      "Fuel": "",
-      "Sale Type": "",
-      "Latest IVSR Status": ""
-    },
-    {
-      "Delivery Date": "",
-      "SE": "",
-      "Customer": "",
-      "AG Order Number": "",
-      "Status": "PU",
-      "Mdl Code": "",
-      "Mdl Description": "Est. Delivery Profit",
-      "Fuel": "",
-      "Sale Type": "",
-      "Latest IVSR Status": ""
-    },
-    {
-      "Delivery Date": "",
-      "SE": "",
-      "Customer": "",
-      "AG Order Number": "",
-      "Status": "100",
-      "Mdl Code": "",
-      "Mdl Description": "£26,600",
-      "Fuel": "",
-      "Sale Type": "",
-      "Latest IVSR Status": ""
     }
   ]
 }
