@@ -1,0 +1,47 @@
+===============================================
+HOW TO USE THE EMAIL TEMPLATE IN OUTLOOK
+===============================================
+
+OPTION 1: Copy & Paste (RECOMMENDED)
+-------------------------------------
+1. Open the file "rota-email-outlook.html" in your web browser
+2. Select ALL content (Ctrl+A or Cmd+A on Mac)
+3. Copy (Ctrl+C or Cmd+C)
+4. Open Outlook
+5. Click "New Email"
+6. In the email body, paste (Ctrl+V or Cmd+V)
+7. Add your recipients
+8. Add subject line: "Christmas Rota 2026" (or your preferred subject)
+9. Send!
+
+OPTION 2: Open Directly in Outlook
+-----------------------------------
+1. Open Microsoft Outlook
+2. Go to File > Open & Export > Open Outlook Data File
+3. Browse and select "rota-email-outlook.html"
+4. The email will open
+5. Add recipients and subject
+6. Send!
+
+OPTION 3: Drag & Drop
+---------------------
+1. Open the file "rota-email-outlook.html" in your web browser
+2. Create a new email in Outlook
+3. Drag and select the entire content from your browser
+4. Drop it into the Outlook email body
+5. Add recipients and subject
+6. Send!
+
+TIPS:
+- The image loads from your website, so it will appear automatically
+- All the festive styling will be preserved
+- Works with Outlook 2016, 2019, 2021, Office 365
+- Compatible with Outlook for Mac and Windows
+
+SUBJECT LINE SUGGESTIONS:
+- "🎄 Christmas Rota 2026 - Ruxley BMW"
+- "Christmas Schedule 2026"
+- "🎅 Festive Season Staff Schedule"
+- "Holiday Rota - December 2026"
+
+===============================================
