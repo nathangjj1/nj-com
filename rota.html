@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Ruxley Christmas Rota 2026</title>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;600;700&family=Montserrat:wght@300;400;500;600;700&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
     <style>
         * {
             margin: 0;
@@ -13,9 +13,11 @@
         }
 
         body {
-            font-family: 'Lato', sans-serif;
+            font-family: 'Montserrat', sans-serif;
             overflow-x: hidden;
-            background: linear-gradient(to bottom, #1a1a1a 0%, #2d1818 50%, #1a1a1a 100%);
+            background: 
+                radial-gradient(ellipse at top, #2d1515 0%, #1a0f0f 50%, #0a0505 100%),
+                linear-gradient(135deg, rgba(139, 0, 0, 0.1) 0%, transparent 100%);
             min-height: 100vh;
             position: relative;
         }
@@ -28,9 +30,16 @@
             width: 100%;
             height: 100%;
             background: 
-                radial-gradient(circle at 20% 30%, rgba(139, 0, 0, 0.15) 0%, transparent 50%),
-                radial-gradient(circle at 80% 70%, rgba(139, 0, 0, 0.15) 0%, transparent 50%);
+                radial-gradient(circle at 15% 25%, rgba(139, 0, 0, 0.2) 0%, transparent 40%),
+                radial-gradient(circle at 85% 75%, rgba(139, 0, 0, 0.15) 0%, transparent 40%),
+                radial-gradient(circle at 50% 50%, rgba(255, 215, 0, 0.03) 0%, transparent 60%);
+            animation: subtlePulse 10s ease-in-out infinite;
             z-index: 1;
+        }
+
+        @keyframes subtlePulse {
+            0%, 100% { opacity: 0.8; }
+            50% { opacity: 1; }
         }
 
         /* Subtle Snowflakes */
@@ -98,26 +107,43 @@
             top: 0;
             left: 0;
             width: 100%;
-            height: 3px;
-            background: linear-gradient(to right, transparent, #8B0000, #DC143C, #8B0000, transparent);
+            height: 4px;
+            background: linear-gradient(to right, 
+                transparent 0%, 
+                #8B0000 20%, 
+                #B8860B 50%, 
+                #8B0000 80%, 
+                transparent 100%);
             z-index: 100;
-            box-shadow: 0 0 20px rgba(139, 0, 0, 0.5);
+            box-shadow: 0 2px 30px rgba(139, 0, 0, 0.6);
         }
 
         /* Main Container */
         .container {
             position: relative;
             z-index: 10;
-            padding: 80px 20px 50px;
-            max-width: 1200px;
+            padding: 60px 20px 50px;
+            max-width: 1100px;
             margin: 0 auto;
         }
 
         /* Header */
         .header {
             text-align: center;
-            margin-bottom: 40px;
+            margin-bottom: 50px;
             animation: fadeIn 1.2s ease-out;
+            position: relative;
+        }
+
+        .header::after {
+            content: '';
+            position: absolute;
+            bottom: -20px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 100px;
+            height: 2px;
+            background: linear-gradient(to right, transparent, #8B0000, transparent);
         }
 
         @keyframes fadeIn {
@@ -132,39 +158,43 @@
         }
 
         h1 {
-            font-family: 'Playfair Display', serif;
-            font-size: 3em;
-            font-weight: 700;
+            font-family: 'Cormorant Garamond', serif;
+            font-size: 3.5em;
+            font-weight: 300;
             color: #ffffff;
-            text-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
-            margin-bottom: 15px;
-            letter-spacing: 2px;
+            text-shadow: 0 3px 15px rgba(0, 0, 0, 0.7);
+            margin-bottom: 20px;
+            letter-spacing: 4px;
+            line-height: 1.2;
         }
 
         .subtitle {
-            font-size: 1.1em;
-            color: #d4d4d4;
-            font-weight: 300;
-            letter-spacing: 1px;
-            margin-bottom: 10px;
+            font-size: 1.2em;
+            color: #c4c4c4;
+            font-weight: 400;
+            letter-spacing: 2px;
+            margin-bottom: 12px;
+            font-family: 'Montserrat', sans-serif;
         }
 
         .year {
-            font-size: 0.9em;
-            color: #8B0000;
-            font-weight: 400;
-            letter-spacing: 3px;
+            font-size: 0.95em;
+            color: #B8860B;
+            font-weight: 500;
+            letter-spacing: 4px;
             text-transform: uppercase;
+            font-family: 'Inter', sans-serif;
         }
 
         /* Rota Display */
         .rota-wrapper {
-            background: #ffffff;
-            border-radius: 8px;
-            padding: 40px;
+            background: linear-gradient(to bottom, #ffffff 0%, #fafafa 100%);
+            border-radius: 12px;
+            padding: 50px;
             box-shadow: 
-                0 10px 50px rgba(0, 0, 0, 0.5),
-                0 0 0 1px rgba(139, 0, 0, 0.2);
+                0 20px 60px rgba(0, 0, 0, 0.6),
+                0 0 0 1px rgba(139, 0, 0, 0.1),
+                inset 0 1px 0 rgba(255, 255, 255, 0.8);
             animation: fadeInUp 1s ease-out;
             position: relative;
         }
@@ -172,13 +202,29 @@
         .rota-wrapper::before {
             content: '';
             position: absolute;
-            top: -2px;
-            left: -2px;
-            right: -2px;
-            bottom: -2px;
-            background: linear-gradient(135deg, #8B0000, #DC143C, #8B0000);
-            border-radius: 8px;
+            top: -3px;
+            left: -3px;
+            right: -3px;
+            bottom: -3px;
+            background: linear-gradient(135deg, #8B0000 0%, #B8860B 50%, #8B0000 100%);
+            border-radius: 12px;
             z-index: -1;
+            opacity: 0.4;
+        }
+
+        .rota-wrapper::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: 
+                linear-gradient(45deg, transparent 48%, rgba(139, 0, 0, 0.03) 50%, transparent 52%),
+                linear-gradient(-45deg, transparent 48%, rgba(139, 0, 0, 0.03) 50%, transparent 52%);
+            background-size: 20px 20px;
+            border-radius: 12px;
+            pointer-events: none;
             opacity: 0.3;
         }
 
@@ -193,91 +239,224 @@
             }
         }
 
-        .rota-image {
-            width: 100%;
-            height: auto;
-            border-radius: 4px;
-            display: block;
-            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        .rota-image-container {
+            background: #f8f8f8;
+            border-radius: 8px;
+            padding: 15px;
+            box-shadow: inset 0 2px 8px rgba(0, 0, 0, 0.1);
         }
 
-        /* Subtle Corner Accents */
+        .rota-image {
+            width: 100%;
+            max-width: 1024px;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+            border-radius: 6px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+            image-rendering: -webkit-optimize-contrast;
+            image-rendering: crisp-edges;
+        }
+
+        /* Elegant Corner Accents */
         .corner-accent {
             position: fixed;
-            width: 80px;
-            height: 80px;
-            border: 2px solid rgba(139, 0, 0, 0.2);
+            width: 100px;
+            height: 100px;
             z-index: 5;
         }
 
+        .corner-accent::before,
+        .corner-accent::after {
+            content: '';
+            position: absolute;
+            background: linear-gradient(to right, #8B0000, #B8860B);
+        }
+
         .corner-accent.top-left {
-            top: 20px;
-            left: 20px;
-            border-right: none;
-            border-bottom: none;
+            top: 25px;
+            left: 25px;
+        }
+
+        .corner-accent.top-left::before {
+            top: 0;
+            left: 0;
+            width: 40px;
+            height: 2px;
+        }
+
+        .corner-accent.top-left::after {
+            top: 0;
+            left: 0;
+            width: 2px;
+            height: 40px;
         }
 
         .corner-accent.top-right {
-            top: 20px;
-            right: 20px;
-            border-left: none;
-            border-bottom: none;
+            top: 25px;
+            right: 25px;
+        }
+
+        .corner-accent.top-right::before {
+            top: 0;
+            right: 0;
+            width: 40px;
+            height: 2px;
+        }
+
+        .corner-accent.top-right::after {
+            top: 0;
+            right: 0;
+            width: 2px;
+            height: 40px;
         }
 
         .corner-accent.bottom-left {
-            bottom: 20px;
-            left: 20px;
-            border-right: none;
-            border-top: none;
+            bottom: 25px;
+            left: 25px;
+        }
+
+        .corner-accent.bottom-left::before {
+            bottom: 0;
+            left: 0;
+            width: 40px;
+            height: 2px;
+        }
+
+        .corner-accent.bottom-left::after {
+            bottom: 0;
+            left: 0;
+            width: 2px;
+            height: 40px;
         }
 
         .corner-accent.bottom-right {
-            bottom: 20px;
-            right: 20px;
-            border-left: none;
-            border-top: none;
+            bottom: 25px;
+            right: 25px;
+        }
+
+        .corner-accent.bottom-right::before {
+            bottom: 0;
+            right: 0;
+            width: 40px;
+            height: 2px;
+        }
+
+        .corner-accent.bottom-right::after {
+            bottom: 0;
+            right: 0;
+            width: 2px;
+            height: 40px;
         }
 
         /* Home Link */
         .home-link {
             display: inline-block;
-            margin-top: 40px;
-            padding: 12px 35px;
-            background: transparent;
+            margin-top: 50px;
+            padding: 14px 45px;
+            background: linear-gradient(135deg, rgba(139, 0, 0, 0.1), rgba(139, 0, 0, 0.2));
             color: #ffffff;
             text-decoration: none;
-            border: 2px solid #8B0000;
-            border-radius: 4px;
-            font-weight: 400;
-            font-size: 1em;
-            letter-spacing: 1px;
-            transition: all 0.3s ease;
+            border: 2px solid rgba(139, 0, 0, 0.6);
+            border-radius: 6px;
+            font-weight: 500;
+            font-size: 0.95em;
+            letter-spacing: 2px;
+            transition: all 0.4s ease;
+            text-transform: uppercase;
+            font-family: 'Inter', sans-serif;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .home-link::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.1), transparent);
+            transition: left 0.5s ease;
+        }
+
+        .home-link:hover::before {
+            left: 100%;
         }
 
         .home-link:hover {
-            background: #8B0000;
-            transform: translateY(-2px);
-            box-shadow: 0 5px 20px rgba(139, 0, 0, 0.4);
+            background: linear-gradient(135deg, #8B0000, #A52A2A);
+            border-color: #8B0000;
+            transform: translateY(-3px);
+            box-shadow: 0 8px 25px rgba(139, 0, 0, 0.5);
+        }
+
+        /* Decorative Snowflake Accents */
+        .decorative-snowflake {
+            position: absolute;
+            color: rgba(139, 0, 0, 0.15);
+            font-size: 80px;
+            z-index: 0;
+            user-select: none;
+            pointer-events: none;
+        }
+
+        .snowflake-1 {
+            top: 100px;
+            left: 10%;
+            transform: rotate(15deg);
+        }
+
+        .snowflake-2 {
+            top: 200px;
+            right: 8%;
+            transform: rotate(-20deg);
+        }
+
+        .snowflake-3 {
+            bottom: 150px;
+            left: 5%;
+            transform: rotate(45deg);
         }
 
         /* Responsive Design */
         @media (max-width: 768px) {
             h1 {
-                font-size: 2em;
-                letter-spacing: 1px;
+                font-size: 2.2em;
+                letter-spacing: 2px;
             }
             .subtitle {
                 font-size: 1em;
+                letter-spacing: 1px;
+            }
+            .year {
+                font-size: 0.85em;
             }
             .container {
-                padding: 60px 15px 30px;
+                padding: 50px 15px 30px;
             }
             .rota-wrapper {
-                padding: 20px;
+                padding: 25px;
+            }
+            .rota-image-container {
+                padding: 10px;
             }
             .corner-accent {
-                width: 50px;
-                height: 50px;
+                width: 60px;
+                height: 60px;
+            }
+            .corner-accent::before {
+                width: 30px !important;
+            }
+            .corner-accent::after {
+                height: 30px !important;
+            }
+            .decorative-snowflake {
+                font-size: 50px;
+            }
+            .home-link {
+                padding: 12px 30px;
+                font-size: 0.85em;
             }
         }
     </style>
@@ -300,6 +479,11 @@
 
     <!-- Main Content -->
     <div class="container">
+        <!-- Decorative Elements -->
+        <div class="decorative-snowflake snowflake-1">❄</div>
+        <div class="decorative-snowflake snowflake-2">❅</div>
+        <div class="decorative-snowflake snowflake-3">❆</div>
+
         <div class="header">
             <h1>Christmas Schedule</h1>
             <div class="subtitle">Ruxley BMW Dealership</div>
@@ -307,7 +491,9 @@
         </div>
 
         <div class="rota-wrapper">
-            <img src="assets/christmas-rota-2026.jpg" alt="Ruxley Christmas Rota 2026" class="rota-image">
+            <div class="rota-image-container">
+                <img src="assets/christmas-rota-2026-hq.jpg" alt="Ruxley Christmas Rota 2026" class="rota-image">
+            </div>
         </div>
 
         <div style="text-align: center;">
